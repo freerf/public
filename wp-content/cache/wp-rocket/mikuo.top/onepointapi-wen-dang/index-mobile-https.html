@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<!-- 
+            ◢＼　 ☆　　 ／◣
+    　  　∕　　﹨　╰╮∕　　﹨
+    　  　▏　　～～′′～～ 　｜
+    　　  ﹨／　　　　　　 　＼∕
+    　 　 ∕ 　　●　　　 ●　＼
+      ＝＝　○　∴·╰╯　∴　○　＝＝
+    　    ╭──╮　　　　　╭──╮
+  ╔═ ∪∪∪═Mashiro&Hitomi═∪∪∪═╗
+-->
+<html lang="zh-CN" prefix="og: https://ogp.me/ns#">
+<head>
+<title>OnePointApi文档 - Mikuo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC&#038;display=swap" media="all">
+<meta name="theme-color" content="#505050">
+<meta charset="UTF-8">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/cxw9/cdn@master/img/pwa/6.ico"/> 
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<script type="text/javascript">
+!function(e){var n={};function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=e,t.c=n,t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:r})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var o in e)t.d(r,o,function(n){return e[n]}.bind(null,o));return r},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="",t(t.s=0)}([function(e,n,t){(function(e){!function(n){var t=n.ampUrl,r=n.isCustomizePreview,o=n.isAmpDevMode,i=n.noampQueryVarName,a=n.noampQueryVarValue,u=n.disabledStorageKey,s=n.mobileUserAgents,c=n.regexRegex;if("undefined"!=typeof sessionStorage){var f=new RegExp(c);if(s.some((function(e){var n=e.match(f);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navigator.userAgent.includes(e)}))){e.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("amp-mobile-version-switcher");if(e){e.hidden=!1;var n=e.querySelector("a[href]");n&&n.addEventListener("click",(function(){sessionStorage.removeItem(u)}))}}));var d=o&&["paired-browsing-non-amp","paired-browsing-amp"].includes(window.name);if(!(sessionStorage.getItem(u)||r||d)){var l=new URL(location.href),p=new URL(t);p.hash=l.hash,l.searchParams.has(i)&&a===l.searchParams.get(i)?sessionStorage.setItem(u,"1"):p.href!==l.href&&(window.stop(),location.replace(p.href))}}}}({"ampUrl":"https:\/\/mikuo.top\/onepointapi-wen-dang\/?amp=1","noampQueryVarName":"noamp","noampQueryVarValue":"mobile","disabledStorageKey":"amp_mobile_redirect_disabled","mobileUserAgents":["Mobile","Android","Silk\/","Kindle","BlackBerry","Opera Mini","Opera Mobi"],"regexRegex":"^\\/((?:.|\n)+)\\/([i]*)$","isCustomizePreview":false,"isAmpDevMode":false})}).call(this,t(1))},function(e,n){var t;t=function(){return this}();try{t=t||new Function("return this")()}catch(e){"object"==typeof window&&(t=window)}e.exports=t}]);
+</script>
+
+<!-- Search Engine Optimization by Rank Math PRO - https://s.rankmath.com/home -->
+<meta name="description" content="打开 cmd 或者 PowerShell 输入"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://mikuo.top/onepointapi-wen-dang/" />
+<meta property="og:locale" content="zh_CN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OnePointApi文档 - Mikuo">
+<meta property="og:description" content="打开 cmd 或者 PowerShell 输入">
+<meta property="og:url" content="https://mikuo.top/onepointapi-wen-dang/">
+<meta property="og:site_name" content="mikuo">
+<meta property="article:section" content="文章">
+<meta property="og:updated_time" content="2021-05-23T12:50:48+08:00">
+<meta property="og:image" content="https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg">
+<meta property="og:image:secure_url" content="https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:image:alt" content="onePointApi文档">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OnePointApi文档 - Mikuo">
+<meta name="twitter:description" content="打开 cmd 或者 PowerShell 输入">
+<meta name="twitter:image" content="https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg">
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Organization","Person"],"@id":"https://mikuo.top/#person","name":"mikuo","url":"https://mikuo.top"},{"@type":"WebSite","@id":"https://mikuo.top/#website","url":"https://mikuo.top","name":"mikuo","publisher":{"@id":"https://mikuo.top/#person"},"inLanguage":"zh-CN"},{"@type":"ImageObject","@id":"https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg","url":"https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg","width":"1920","height":"1080","inLanguage":"zh-CN"},{"@type":"Person","@id":"https://mikuo.top/author/super/","name":"super","url":"https://mikuo.top/author/super/","image":{"@type":"ImageObject","@id":"https://sdn.geekzu.org/avatar/13e30eb54003d2d431545a1a65bff4ca?s=96&amp;d=mm&amp;r=g","url":"https://sdn.geekzu.org/avatar/13e30eb54003d2d431545a1a65bff4ca?s=96&amp;d=mm&amp;r=g","caption":"super","inLanguage":"zh-CN"},"sameAs":["https://mikuo.top"]},{"@type":"WebPage","@id":"https://mikuo.top/onepointapi-wen-dang/#webpage","url":"https://mikuo.top/onepointapi-wen-dang/","name":"OnePointApi\u6587\u6863 - Mikuo","datePublished":"2021-05-17T20:46:44+08:00","dateModified":"2021-05-23T12:50:48+08:00","author":{"@id":"https://mikuo.top/author/super/"},"isPartOf":{"@id":"https://mikuo.top/#website"},"primaryImageOfPage":{"@id":"https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg"},"inLanguage":"zh-CN"},{"@type":"BlogPosting","headline":"OnePointApi\u6587\u6863 - Mikuo","datePublished":"2021-05-17T20:46:44+08:00","dateModified":"2021-05-23T12:50:48+08:00","author":{"@type":"Person","name":"super"},"publisher":{"@id":"https://mikuo.top/#person"},"description":"\u6253\u5f00 cmd \u6216\u8005 PowerShell \u8f93\u5165","name":"OnePointApi\u6587\u6863 - Mikuo","@id":"https://mikuo.top/onepointapi-wen-dang/#richSnippet","isPartOf":{"@id":"https://mikuo.top/onepointapi-wen-dang/#webpage"},"image":{"@id":"https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg"},"inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://mikuo.top/onepointapi-wen-dang/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//api.mikuo.top' />
+<link rel='dns-prefetch' href='//api.bbvvdd.cn' />
+<link rel='dns-prefetch' href='//sdn.geekzu.org' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//b8c989de08092805.ncname.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link href='//b8c989de08092805.ncname.com' rel='preconnect' />
+<link rel='stylesheet' id='Katex-css'  href='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/KaTeX/katex.min.css?ver=10.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Emojify.js-css'  href='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Emojify.js/css/basic/emojify.min.css?ver=10.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prism-theme-default-css'  href='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/themes/prism.css?ver=1.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='prism-plugin-toolbar-css'  href='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/toolbar/prism-toolbar.css?ver=1.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='prism-plugin-line-numbers-css'  href='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/line-numbers/prism-line-numbers.css?ver=1.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='saukra_css-css'  href='https://mikuo.top/wp-content/themes/Sakurairo/style.css?ver=2.1.0.1' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://mikuo.top/wp-json/" /><link rel="alternate" type="application/json" href="https://mikuo.top/wp-json/wp/v2/posts/47" /><link rel='shortlink' href='https://mikuo.top/?p=47' />
+<link rel="alternate" type="application/json+oembed" href="https://mikuo.top/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmikuo.top%2Fonepointapi-wen-dang%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mikuo.top/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmikuo.top%2Fonepointapi-wen-dang%2F&#038;format=xml" />
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<!-- Analytics by WP-Statistics v13.0.8 - https://wp-statistics.com/ -->
+<script>var WP_Statistics_http = new XMLHttpRequest();WP_Statistics_http.open('GET', 'https://mikuo.top/wp-json/wp-statistics/v2/hit?_=1621749005&_wpnonce=52fecb9dd7&wp_statistics_hit_rest=yes&browser=Safari&platform=iOS&version=9.1&referred=https://mikuo.top/onepointapi-wen-dang/&ip=156.251.173.18&exclusion_match=yes&exclusion_reason=CrawlerDetect&ua=Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 WP Rocket/Preload&track_all=1&timestamp=1621777805&current_page_type=post&current_page_id=47&search_query&page_uri=/onepointapi-wen-dang/&user_id=0', true);WP_Statistics_http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");WP_Statistics_http.send(null);</script>
+<style>
+.site-top .lower nav {display: block !important;}
+:root{
+    --theme-skin: #505050;
+}
+.author-profile i , .post-like a , .post-share .show-share , .sub-text , .we-info a , span.sitename { color: #505050 }
+.feature i , /*.feature-title span ,*/ .download , .links ul li:before , .ar-time i , span.ar-circle , .object , .comment .comment-reply-link , .siren-checkbox-radio:checked + .siren-checkbox-radioInput:after { background: #505050 }
+::-webkit-scrollbar-thumb { background: #505050; border-radius: 25px; }
+.download ,  .link-title  { border-color: #505050 }
+ .comment h4 a , #comments-navi a.prev , #comments-navi a.next , #archives-temp h3 , span.page-numbers.current , blockquote:before, blockquote:after { color: #505050 }
+
+#aplayer-float .aplayer-lrc-current { color: #505050 !important}
+
+.linkdes { border-top: 1px dotted #505050 !important}
+
+.the-feature.from_left_and_right .info{background: rgba(255,255,255,0.4) ;}
+
+.is-active-link::before, .commentbody:not(:placeholder-shown)~.input-label, .commentbody:focus~.input-label {
+    background-color: #505050 !important
+}
+.links ul li {
+    border: 1px solid #505050;
+}
+.links ul li img {
+    box-shadow: inset 0 0 10px #505050;
+}
+.commentbody:focus {
+    border-color: #505050 !important
+}
+.post-list-thumb i ,
+.float-content i ,
+.post-more i { 
+    color: #ffcc00;
+}
+i.iconfont.js-toggle-search.iconsearch {
+    color: #505050;
+}
+.ins-section .fa {
+    color: #505050}
+.ins-section .ins-search-item.active .ins-slug,.ins-section .ins-search-item.active .ins-search-preview {
+	color: #505050}
+.ins-section .ins-section-header {
+    color: #505050;
+    border-bottom: 3px solid #505050;
+    border-color: #505050;
+}
+.the-feature.from_left_and_right .info p {
+    color: #505050;
+}
+.sorry li a {
+    color: #505050;
+}
+.sorry-inner {
+    border: 1px solid #505050;
+}
+.err-button.back a {
+    border: 1px solid #505050;
+    color: #505050;
+}
+
+.sorry {
+    color: #505050;
+}
+.site-top ul li a {
+    color: #505050}
+.header-info {
+    color: #505050;
+    background: rgba(255,255,255,0.8);
+}
+.top-social img {
+    background: rgba(255,255,255,0.8);
+}
+.skin-menu{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+.post-more i:hover , #pagination a:hover , .post-content a:hover , .float-content i:hover , .entry-content a:hover , .site-info a:hover , .comment h4 a:hover , .site-top ul li a:hover , .entry-title a:hover , .sorry li a:hover , .site-title a:hover , i.iconfont.js-toggle-search.iconsearch:hover , .comment-respond input[type='submit']:hover { color: #ffe066 }
+.navigator i:hover { background: #ffe066 }
+.navigator i:hover , .links ul li:hover , #pagination a:hover , .comment-respond input[type='submit']:hover { border-color: #ffe066 }
+.insert-image-tips:hover, .insert-image-tips-hover{ 
+    color: #ffe066;
+    border: 1px solid #ffe066}
+.ins-section .ins-search-item:hover .ins-slug,.ins-section .ins-search-item:hover .ins-search-preview,.ins-section .ins-search-item:hover header,.ins-section .ins-search-item:hover .iconfont {
+	color: #ffe066}
+.sorry li a:hover {
+    color: #ffe066;
+}
+.header-info p:hover {
+    color: #ffe066;
+	transition: all .4s;
+}
+.post-tags a:hover {
+    color: #ffe066}
+.post-share ul li a:hover {
+    color: #ffe066}
+#pagination a:hover {
+    border: 1px solid #ffe066;
+    color: #ffe066}
+.ex-login input.login-button:hover,
+.ex-register input.register-button:hover {
+    background-color: #ffe066;
+    border-color: #ffe066;
+}
+.site-top ul li a:after {
+    background-color: #ffe066}
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+    border: 1px solid #505050;
+}
+.post-date {
+    color: #ffcc00}
+.linkdes {
+    color: #505050}
+.link-title span.link-fix {
+    border-left:3px solid #505050;
+}
+.scrollbar,.butterBar-message {
+    background: #505050 !important
+}
+h1.cat-title {
+    color: #505050}
+.comment .body .comment-at {
+    color: #505050}
+.focusinfo .header-tou img {
+    box-shadow: inset 0 0 10px #505050;
+}
+.double-bounce1, .double-bounce2 {
+    background-color: #505050;
+  }
+.herder-user-name no-logged{
+    color: #505050;
+}
+#pagination .loading {
+    background: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/load_svg/ball.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #555;
+    border: none;
+    background-size: auto 100%
+}
+#pagination .loading,#bangumi-pagination .loading {
+    background: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/load_svg/ball.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #555;
+    border: none;
+    background-size: auto 100%
+}
+#nprogress .spinner-icon {
+    border-top-color: #505050;
+    border-left-color: #505050;
+}
+#nprogress .peg {
+    box-shadow: 0 0 10px #505050, 0 0 5px #505050;
+}
+#nprogress .bar {
+    background: #505050;
+}
+#gohome {
+    background: #505050;
+}
+#archives-temp h2 {
+    color: #505050}
+#archives-temp h3 {
+    color: #505050}
+#moblieGoTop {
+    color: #505050;
+    border-radius: 10px;
+}
+#changskin {
+    color: #505050;
+    border-radius: 10px;
+}
+#show-nav .line {
+    background: #505050}
+#nprogress .spinner-icon{ 
+    border-top-color: #505050; 
+    border-left-color: #505050}
+#nprogress .bar {
+    background: #505050}
+#aplayer-float .aplayer-lrc-current {
+    color: #505050;
+}
+@media (max-width:860px) {
+    .links ul li:hover .sitename {
+        color: #ffe066    }
+    .openNav .icon {
+     background-color: #505050;
+    }
+    .openNav .icon:after,
+    .openNav .icon:before {
+     background-color: #505050;
+    }
+    #mo-nav ul li a {
+        color: #505050;
+    }
+    #mo-nav ul li a:hover {
+        color: #ffe066;
+    }
+    ::-webkit-scrollbar-thumb {
+    background-color: #505050;
+    border-radius: 25px;
+    }
+}
+.herder-user-name {
+	color: #505050;
+}
+.header-user-menu a {
+    color: #505050;
+}
+.no-logged a {
+    color: #505050;
+}
+.single-reward .reward-open {
+    background: #ffe066;
+    color: #505050;
+}
+
+/*白猫样式Logo*/
+
+.logolink a {
+    color: #505050;
+}
+
+.art .art-content .al_mon_list .al_post_list>li:after {
+    background: #505050;
+}
+@media (min-width:861px) {
+    .hide-live2d {
+        background-color: #505050;
+    }
+}
+.art-content #archives .al_mon_list .al_mon:after {
+    background: #505050;
+}
+.art-content #archives .al_mon_list:before {
+    background: #505050;
+}
+.changeSkin-gear {
+    color: #505050;
+}
+.art .art-content .al_mon_list .al_post_list>li:after,
+.art-content #archives .al_mon_list .al_mon:after {
+    background: #505050;
+}
+.is-active-link::before {
+    background-color: #505050; /*!important*/ /*mark*/
+}
+.motion-switcher-table th:hover {
+    color: #ffe066;
+}
+.motion-switcher-table .on-hover {
+    color: #ffe066;
+}
+.menhera-container .emoji-item {
+    color: #505050;
+}
+.scrollbar {
+    background: #505050;
+}
+.insert-image-tips:hover {
+    color: #ffe066;
+    border: 1px solid #ffe066;
+}
+.insert-image-tips-hover {
+    color: #ffe066;
+    border: 1px solid #ffe066;
+}
+.the-feature a {
+    color: #505050;
+}
+#moblieGoTop:hover,
+#changskin:hover {
+    color: #ffe066;
+    background-color: #fff;
+    opacity: .8;
+}
+.menu-list li:hover {
+    background-color: #ffe066;
+}
+.art .art-content #archives a:hover {
+    color: #ffe066;
+}
+.art .art-content .al_mon_list .al_post_list>li,
+.art-content #archives .al_mon_list .al_mon {
+	color: #505050;
+}
+.font-family-controls button.selected{
+    background-color: #505050;
+}
+.font-family-controls button:hover{
+    background-color: #ffe066;
+}
+.art-content #archives .al_mon_list .al_mon,
+.art-content #archives .al_mon_list span {
+    color: #505050;
+}
+h1.fes-title,
+h1.main-title {
+    color: #505050;
+}
+.font-family-controls button {
+    color: #505050;
+    border-radius: 10px;
+}
+
+
+/*非全局色彩管理*/
+.menu-list li {
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+.font-family-controls button {
+    background-color: #e8e8e8;
+}
+h1.fes-title,
+h1.main-title {
+    border-bottom: 6px dotted #e8e8e8;
+}
+.post-date {
+    background-color: #fff5e0;
+}
+.post-list-thumb {
+    box-shadow: 0 1px 30px -4px #e8e8e8;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+    background: #ffe066;
+}
+.cbp_tmtimeline > li .cbp_tmlabel {
+    background: #ffcc00;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+    border-right-color: #ffe066;
+}
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+    border-right-color: #ffcc00;
+}
+
+.center-text{
+color: #FFF ;
+font-size: 80px;
+}
+.Ubuntu-font,.center-text{
+font-family:  ;
+}
+
+.notice i ,
+.notice {
+    color: #999;
+}
+
+.notice {
+    border: 1px solid #E6E6E6;
+}
+
+.entry-content th {
+    background-color: #505050}
+
+
+.post-list-thumb{opacity: 0}
+.post-list-show {opacity: 1}
+
+.comments .comments-main {display:block !important;}
+.comments .comments-hidden {display:none !important;}
+.centerbg{background-position: center center;background-attachment: inherit;}
+.rotating {
+    -webkit-animation: rotating 6s linear infinite;
+    -moz-animation: rotating 6s linear infinite;
+    -ms-animation: rotating 6s linear infinite;
+    -o-animation: rotating 6s linear infinite;
+    animation: rotating 6s linear infinite;
+}
+
+/*预加载部分*/
+
+
+/*深色模式*/
+
+/*固定项目*/
+body.dark #main-container,
+body.dark #mo-nav,
+body.dark .comments,
+body.dark .site-footer,
+body.dark .wrapper,
+body.dark .post-list-show,
+body.dark .post-list hr,
+body.dark .lower li ul,
+body.dark .header-user-menu,
+body.dark .headertop-bar::after 
+{background:#333333 !important;}
+
+body.dark .pattern-center-blank,
+body.dark .blank,
+body.dark .toc,
+body.dark .search-form input
+{background:rgba(51,51,51,0.8);}
+
+body.dark .single-reward .reward-row,
+body.dark input.m-search-input
+{background:#999999;}
+
+body.dark .ins-section .ins-search-item.active,
+body.dark .ins-section .ins-search-item.active .ins-slug,
+body.dark .ins-section .ins-search-item.active .ins-search-preview,
+body.dark .herder-user-name-u,
+body.dark .herder-user-name,
+body.dark .herder-user-name no-logged,
+body.dark .header-user-menu .user-menu-option
+{color:#fff;background:#333333;}
+
+body.dark .single-reward .reward-row:before
+{border-bottom:13px solid #999999;}
+
+body.dark .search-form--modal,
+body.dark .ins-section .ins-section-header
+{border-bottom:none;background:rgba(51,51,51,0.9) !important;}
+
+body.dark .search_close:after,
+body.dark .search_close:before,
+body.dark .openNav .icon,
+body.dark .openNav .icon:before
+{background-color:#CCCCCC;}
+
+body.dark .centerbg
+{background-blend-mode:hard-light;background-color:#333333;}
+
+body.dark input[type=color]:focus,
+body.dark input[type=date]:focus,
+body.dark input[type=datetime-local]:focus,
+body.dark input[type=datetime]:focus,
+body.dark input[type=email]:focus,
+body.dark input[type=month]:focus,
+body.dark input[type=number]:focus,
+body.dark input[type=password]:focus,
+body.dark input[type=range]:focus,
+body.dark input[type=search]:focus,
+body.dark input[type=tel]:focus,
+body.dark input[type=text]:focus,
+body.dark input[type=time]:focus,
+body.dark input[type=url]:focus,
+body.dark input[type=week]:focus,
+body.dark textarea:focus,
+body.dark .post-date,
+body.dark #mo-nav .m-search form
+{color:#CCCCCC;background-color:#333333;}
+
+body.dark .header-user-menu::before,
+body.dark .lower li ul::before
+{border-color:transparent transparent #333333 transparent;}
+
+body.dark .header-user-menu .user-menu-option,
+body.dark .post-list-thumb a 
+{color:#333333;}
+
+body.dark .entry-content p,
+body.dark .entry-content ul,
+body.dark .entry-content ol,
+body.dark .comments .body p,
+body.dark .float-content,
+body.dark .post-list p,
+body.dark .link-title
+{color:#999999 !important;}
+
+body.dark .entry-title a,
+body.dark .post-list-thumb .post-title,
+body.dark .art-content #archives .al_mon_list .al_mon,
+body.dark .art-content #archives .al_mon_list span,
+body.dark .art .art-content #archives a,
+body.dark .menhera-container .emoji-item,
+body.dark .ex-login-username,
+body.dark .admin-login-check p,
+body.dark .user-login-check p,
+body.dark .ex-logout a,
+body.dark .ex-new-account a
+{color:#999999;}
+
+body.dark .site-top ul li a,
+body.dark .header-user-menu a,
+body.dark #mo-nav ul li a,
+body.dark .site-title a,
+body.dark header.page-header,
+body.dark h1.cat-title,
+body.dark .art .art-content #archives .al_year,
+body.dark .comment-respond input,
+body.dark .comment-respond textarea,
+body.dark .siren-checkbox-label,
+body.dark .aplayer .aplayer-list ol li .aplayer-list-author,
+body.dark,
+body.dark button,
+body.dark input,
+body.dark select,
+body.dark textarea,
+body.dark i.iconfont.js-toggle-search.iconsearch,
+body.dark .skin-menu
+{color:#CCCCCC;}
+
+body.dark .post-date,
+body.dark .post-list-thumb a,
+body.dark .post-list-thumb i,
+body.dark .post-meta,
+body.dark .info-meta a,
+body.dark .info-meta span
+{color:#666666;}
+
+body.dark .post-list-thumb
+{box-shadow:0 1px 35px -8px rgba(26,26,26,0.6);}
+
+body.dark .notice,
+body.dark .notification 
+{color:#CCCCCC;background:#666666;border:none;}
+
+body.dark .author-profile p
+{border-top: 1px solid #3B3B3B;border-bottom: 1px solid #3B3B3B;color: #CCCCCC;}
+
+body.dark .author-profile .meta h3 a,
+body.dark .author-profile i 
+{color: #CCCCCC;}
+
+body.dark h1.page-title
+{border: 1px dashed #3B3B3B;color: #CCCCCC;}
+
+body.dark .entry-header hr
+{background:#3B3B3B;}
+
+body.dark h1.fes-title,
+body.dark h1.main-title
+{border-bottom:6px dotted #666666;color:#CCCCCC;}
+
+body.dark .widget-area .heading,
+body.dark .widget-area .show-hide svg,
+body.dark #aplayer-float,
+body.dark .aplayer.aplayer-fixed .aplayer-body,
+body.dark .aplayer .aplayer-miniswitcher,
+body.dark .aplayer .aplayer-pic
+{color:#CCCCCC;background-color:#262626 !important;}
+
+body.dark #aplayer-float .aplayer-lrc-current
+{color:transparent !important;}
+
+body.dark .aplayer.aplayer-fixed .aplayer-lrc
+{text-shadow:-1px -1px 0 #999999;}
+
+body.dark .aplayer.aplayer-fixed .aplayer-list
+{border:none !important;}
+
+body.dark .aplayer.aplayer-fixed .aplayer-info,
+body.dark .aplayer .aplayer-list ol li
+{border-top:none !important;}
+
+body.dark .yya
+{box-shadow: 0 1px 40px -8px #333333;}
+
+body.dark .font-family-controls button,
+body.dark .menu-list li
+{background-color:#666666;}
+
+body.dark .s-content,body.dark .font-family-controls button.selected
+{background-color:#808080;}
+
+body.dark #banner_wave_1,
+body.dark #banner_wave_2,
+body.dark .skin-menu::after
+{display:none;}
+
+body.dark .widget-area .show-hide svg path
+{fill:#CCCCCC;}
+
+body.dark button,
+body.dark input[type=button],
+body.dark input[type=reset],
+body.dark input[type=submit]
+{box-shadow:none;}
+
+body.dark .comment .info,
+body.dark .comment-respond .logged-in-as,
+body.dark .comment-respond .logged-in-as a 
+{color:#CCCCCC;}
+
+body.dark .header-user-avatar:hover ,
+body.dark .aplayer .aplayer-list ol li.aplayer-list-light ,
+body.dark .site-header:hover 
+{background:#333333;}
+
+body.dark #preload
+{background: #333333;}
+
+body.dark #moblieGoTop,
+body.dark #changskin
+{background-color:#262626;}
+
+body.dark #show-nav .line 
+{background: #CCCCCC;}
+
+body.dark .post-footer 
+{background-image: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/creativecommons-dark.png);}
+
+/*可变项目*/
+
+/*深色模式控件透明度*/
+body.dark .header-info,
+body.dark .top-social img
+{color:#fff;background:rgba(51,51,51,0.8);}
+
+body.dark .the-feature.from_left_and_right .info
+{background-color: rgba(51,51,51,0.8);}
+
+body.dark .yya,
+body.dark .widget-area,
+body.dark .skin-menu,
+body.dark input[type=submit] 
+{background-color:rgba(38,38,38,0.8) !important;}
+
+/*深色模式自定义颜色*/
+body.dark .headertop-down i 
+{color: rgba(51,51,51,0.8) !important;}
+
+/*深色模式图像亮度*/
+body.dark img,
+body.dark .highlight-wrap,
+body.dark iframe,
+body.dark .entry-content .aplayer
+{filter:brightness(0.8);}
+
+/*深色模式主题色*/
+body.dark .scrollbar,
+body.dark .butterBar-message,
+body.dark .aplayer .aplayer-list ol li:hover ,
+body.dark .pattern-center:after 
+{background: #ffcc00 !important;}
+
+body.dark .aplayer .aplayer-list ol li.aplayer-list-light .aplayer-list-cur,
+body.dark .user-menu-option a:hover ,
+body.dark .menu-list li:hover ,
+body.dark .font-family-controls button:hover ,
+body.dark .openNav .icon, 
+body.dark .openNav .icon:before ,
+body.dark .openNav .icon:after ,
+body.dark .openNav .icon:after ,
+body.dark .site-top ul li a:after 
+{background-color: #ffcc00;}
+
+body.dark #moblieGoTop,
+body.dark #changskin,
+body.dark .the-feature.from_left_and_right a:hover .info p,
+body.dark .the-feature.from_left_and_right .info,
+body.dark .ins-section .ins-search-item:hover,
+body.dark .ins-section .ins-search-item:hover .ins-slug,
+body.dark .ins-section .ins-search-item:hover .ins-search-preview,
+body.dark .ins-section .ins-search-item:hover .iconfont ,
+body.dark .float-content i:hover,
+body.dark .menhera-container .emoji-item:hover ,
+body.dark .comment-respond .logged-in-as a:hover ,
+body.dark .site-top ul li a:hover ,
+body.dark i.iconfont.js-toggle-search.iconsearch:hover
+{color:#ffcc00;}
+
+body.dark .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path 
+{fill:#ffcc00;}
+
+body.dark #moblieGoTop:hover , 
+body.dark #changskin:hover 
+{color:##ffcc00;opacity:.8;}
+
+body.dark .focusinfo .header-tou img 
+{box-shadow: inset 0 0 10px #ffcc00;}
+
+@media (max-width: 1200px){
+body.dark .site-top .lower nav.navbar ul 
+{background: rgba(255,255,255,0);}
+}
+
+/*切换动画*/
+html,
+#main-container,
+.pattern-center:after,
+#mo-nav,
+.headertop-bar::after,
+.comments,
+.site-footer,
+.pattern-center-blank,
+.yya,
+.blank,
+.toc
+{transition:background 0.8s;}
+
+.notice,
+.notification,
+.author-profile p,
+.author-profile .meta h3 a,
+.author-profile i,
+.entry-header hr,
+.header-info p,
+.header-info,
+.focusinfo .header-tou img,
+.top-social img, 
+.center-text,
+.entry-content p,
+.entry-content ul,
+.entry-content ol,
+.comments .body p,
+.float-content,
+.post-list p,
+.link-title,
+.search-form input,
+.wrapper,
+.site-footer,
+.site-wrapper,
+#moblieGoTop,
+#changskin,
+#moblieGoTop:hover,
+#changskin:hover,
+.post-list-show,
+.post-list hr,
+.post-date,
+.float-content i:hover,
+h1.fes-title,
+h1.main-title,
+h1.page-title
+{transition:all 0.8s ease !important;}
+
+/*字重*/
+
+h1,small,sub,sup,code,kbd,pre,samp,body,button,input,select,textarea,blockquote:before,blockquote:after,code,kbd,tt,var,big,button,input[type=button],input[type=reset],input[type=submit],.video-stu,.pattern-center h1.cat-title,.pattern-center h1.entry-title,.pattern-center .cat-des,.single-center .single-header h1.entry-title,.single-center .entry-census,.pattern-center-sakura h1.cat-title,.pattern-center-sakura h1.entry-title,.pattern-center-sakura .cat-des,.single-center .single-header h1.entry-title,.single-center .entry-census,.site-top .lower,.site-top .menu-item-has-children li a,.feature i,.p-time,.p-time i,i.iconfont.hotpost,.post-list p,.post-more i,.info-meta span,.post-list-thumb i,.post-date,.post-meta,.post-meta a,.float-content .post-text,.float-content i,.s-time,.s-time i,.navigator i,.site-info,.entry-census,h1.page-title,.post-tags,.post-like a,.post-like i,.post-share ul li i ,.post-squares .category,.post-squares h3,.post-squares .label,.author-profile .meta h3 a,.author-profile p,.author-profile i,.mashiro-profile .box a,#comments-list-title span,.butterBar-message ,h1.works-title,.works-p-time,.works-p-time i,.works-meta i,.works-meta span,#archives-temp h3,h1.cat-title,span.sitename,span.linkss-title,.comment .commeta,.comment .comment-reply-link,.comment .info,.comment .info .useragent-info-m,.comment h4,.comment h4 a,.comment-respond #cancel-comment-reply-link,.comment-respond input,.comment-respond textarea,.comment-respond .logged-in-as i,.notification i,.notification span,.siren-checkbox-label,h1.fes-title,h1.main-title,.foverlay-bg,.feature-title .foverlay,.notice i,.bio-text,.header-info,.site-header.iconsearch,i.iconfont.js-toggle-search.iconsearch,.search-form i ,.search-form input,.s-search input,.s-search i,.ins-section,.ins-section .iconfont.icon-mark,.ins-section .fa ,.ins-section.ins-search-item .search-keyword,.ins-section .ins-search-item .ins-search-preview,i.iconfont.down,#pagination span,#bangumi-pagination span,.ex-login-title ,.ex-register-title h3,.ex-login input,.ex-register input,.admin-login-check,.user-login-check,.ex-login-username,.ex-new-account a,.ex-register .user-error,.register-close,.herder-user-name,.header-user-menu a,.no-logged,.no-logged a,.single-reward .reward-open,.reward-row li::after ,.botui-container,button.botui-actions-buttons-button,input.botui-actions-text-input,.load-button span,.prpr,.mashiro-tips,.live2d-tool,.center-text,.bb-comment,.finish-icon-container,.skill div,#footer-sponsor,.comment-user-avatar .socila-check ,.insert-image-tips ,.the-feature.from_left_and_right .info h3,.the-feature.from_left_and_right .info p,.highlight-wrap .copy-code ,#bangumi-pagination {font-weight: 300 !important}
+
+/*字体*/
+
+
+.serif{
+font-family: !important ;
+font-size: 15px !important;
+}
+
+body{
+font-family: !important;
+font-size: 15px !important;
+}
+
+h1.main-title,h1.fes-title{
+font-family:Noto Serif SC !important;
+}
+
+.header-info p{
+font-family:Noto Serif SC !important;
+font-size: 16px !important;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel {
+font-family:Noto Serif SC !important;
+}
+
+.post-list-thumb .post-title h3{
+font-size: 18px !important;
+}
+
+.post-meta, .post-meta a{
+font-size: 12px !important;
+}
+
+.pattern-center h1.cat-title,
+.pattern-center h1.entry-title {
+font-size: 40px !important;
+}
+.pattern-center-sakura h1.cat-title,
+.pattern-center-sakura h1.entry-title {
+font-size: 40px !important;
+}
+
+.single-center .single-header h1.entry-title {
+font-size: 32px !important;
+}
+
+/*鼠标*/
+body{
+cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/normal.cur), auto;
+}
+
+.botui-actions-buttons-button,
+.headertop-down i,
+.faa-parent.animated-hover:hover>.faa-spin,
+.faa-spin.animated,
+.faa-spin.animated-hover:hover,
+i.iconfont.js-toggle-search.iconsearch,
+#waifu #live2d,
+.aplayer svg,
+.aplayer.aplayer-narrow .aplayer-body,
+.aplayer.aplayer-narrow .aplayer-pic,
+button.botui-actions-buttons-button,
+#emotion-toggle,
+.emoji-item,
+.emotion-box,
+.emotion-item,
+.on-hover,
+.tieba-container span,
+#moblieGoTop,
+#changskin{
+cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/No_Disponible.cur), auto;
+}
+
+a,
+.ins-section .ins-section-header,
+.font-family-controls button,
+.menu-list li,.ins-section .ins-search-item,
+.ins-section .ins-search-item .ins-search-preview{
+cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/ayuda.cur), auto;
+}
+
+p,
+.highlight-wrap code,
+.highlight-wrap,
+.hljs-ln-code .hljs-ln-line{
+cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/texto.cur), auto;
+}
+
+a:active{
+cursor: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/work.cur), alias;
+}
+
+/*背景类*/
+.comment-respond textarea {
+background-image: url(); 
+}
+
+.search-form.is-visible{
+background-image: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/iloli.gif);
+}
+
+.wrapper,
+.site-footer {
+background-color: rgba(255, 255, 255,0.8);
+}
+
+/*首页圆角设置*/
+.header-info{
+border-radius: 15px;
+}
+
+.focusinfo img{
+border-radius: 15px;
+}
+
+.focusinfo .header-tou img{
+border-radius: 100px;
+}
+
+/*标题横线动画*/
+.single-center header.single-header .toppic-line{
+position:relative;bottom:0;left:0;display:block;width:100%;height:2px;background-color:#fff;animation:lineWidth 2.5s;animation-fill-mode:forwards;}
+@keyframes lineWidth{0%{width:0;}
+100%{width:100%;}
+}
+
+/*标题动画*/
+.entry-title,.single-center .entry-census a,.entry-census,.post-list p,.post-more i,.p-time,.feature{
+	-moz-animation: fadeInUp 1s;
+    -webkit-animation:fadeInUp 1s;
+	animation: fadeInUp 1s;
+}
+
+/*首页封面动画*/
+h1.main-title, h1.fes-title,.the-feature.from_left_and_right .info,.header-info p,.header-info,.focusinfo .header-tou img,.top-social img,.center-text{
+	-moz-animation: fadeInDown  2s;
+    -webkit-animation:fadeInDown  2s;
+	animation: fadeInDown  2s;
+}
+
+/*导航菜单动画*/
+.site-top ul {
+	-moz-animation: fadeInLeft  2s;
+    -webkit-animation:fadeInLeft  2s;
+	animation: fadeInLeft  2s;
+}
+
+/*浮起动画*/
+/*向上*/
+@-moz-keyframes fadeInUp {
+	0% {
+		-moz-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+ 
+@-webkit-keyframes fadeInUp {
+	0% {
+		-webkit-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	50% {
+		-webkit-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	100% {
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+ 
+@keyframes fadeInUp {
+	0% {
+		-moz-transform: translateY(200%);
+		-ms-transform: translateY(200%);
+		-webkit-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateY(200%);
+		-ms-transform: translateY(200%);
+		-webkit-transform: translateY(200%);
+		transform: translateY(200%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+/*向下*/
+@-moz-keyframes fadeInDown {
+	0% {
+		-moz-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+ 
+@-webkit-keyframes fadeInDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+ 
+@keyframes fadeInDown {
+	0% {
+		-moz-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%);
+		opacity: 1
+	}
+}
+/*向左*/
+@-moz-keyframes fadeInLeft {
+	0% {
+		-moz-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateX(0%);
+		transform: translateX(0%);
+		opacity: 1
+	}
+}
+ 
+@-webkit-keyframes fadeInLeft {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);
+		opacity: 1
+	}
+}
+ 
+@keyframes fadeInLeft {
+	0% {
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	50% {
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		opacity: 0
+	}
+ 
+	100% {
+		-moz-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);
+		opacity: 1
+	}
+}
+
+/*其他*/
+
+
+@media (max-width: 860px) {
+.headertop-down {
+        display: none
+    }
+}
+
+.widget-area .sakura_widget{
+    background-image: url();
+}
+
+.headertop{
+    border-radius: 0 0 15px 15px;
+}
+
+.float-content i {
+    display: none;
+}
+
+
+
+
+
+.post-list-thumb:nth-child(2n) .post-content-wrap {
+    float: left;
+    padding-left: 30px;
+    padding-right: 0;
+    text-align: right;
+    margin: 20px 10px 10px 0
+}
+.post-list-thumb:nth-child(2n) .post-thumb {
+    float: left
+}
+
+.post-list-thumb:nth-child(2n) .post-thumb a {
+    border-radius: 10px 0 0 10px
+}
+
+.pattern-center::after {
+    display:none;
+}
+.pattern-center-blank {
+    display:none;
+}
+
+
+.yya {
+    position: fixed;
+    -webkit-transition: all 1s ease !important;
+    transition: all 1s ease !important;
+    width:95% ;
+	left:calc(97.5% - 95%);
+    background: rgba(255, 255, 255, .75);
+    box-shadow: 0 1px 40px -8px rgba(255, 255, 255, .4);
+    border-radius: 15px !important;
+}
+.site-title img {
+    margin-left: 10px;
+}
+.site-header {
+    border-radius: 15px !important;
+}
+.header-user-menu {
+    border-radius: 15px !important;
+}
+.lower li ul {
+    border-radius: 15px !important;
+}
+@media (max-width:860px) {
+.openNav .icon {
+        left: 5%;
+    }
+}
+
+@media (max-width:860px) {
+.site-header {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: 0 0;
+    position: fixed;
+    border-radius: 0px;
+}
+.yya {
+    position: fixed;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 0 !important;
+    box-shadow: 0 1px 40px -8px rgba(255, 255, 255, .4)
+}
+}
+
+
+.header-user-menu::before {
+    display: none;
+}
+.lower li ul::before {
+    display: none;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+    display: none;
+}
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+    display: none;
+}
+
+.the-feature.from_left_and_right {
+    position: relative;
+    border-radius: 15px;
+    height: 160px;
+    width: 258px;
+    margin: 6px 6px 0 6px;
+}
+
+.the-feature img {
+    height: 160px;
+    width: 258px;
+}
+
+
+
+.notice {
+    background-image:url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/ultramarine/announcement_bg.jpg);
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+
+
+</style>
+<script>
+/*Initial Variables*/
+const mashiro_option = {
+    NProgressON:true,
+    audio:false,
+    darkmode :true,
+    dm_strategy:"time",
+    preload_blur:0,
+    email_domain:"",
+    email_name:"",
+    cookie_version_control:"",
+    qzone_autocomplete:false,
+    site_name:"MiKuo",
+    author_name:"cxw9",
+    template_url:"https://mikuo.top/wp-content/themes/Sakurairo",
+    site_url:"https://mikuo.top",
+    qq_api_url:"https://mikuo.top/wp-json/sakura/v1/qqinfo/json",
+    // qq_avatar_api_url:"https://api.2heng.xin/qqinfo/",
+    live_search:false,
+            skin_bg0:"",
+    
+        skin_bg1:"https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/background/foreground/bg1.png",
+    
+        skin_bg2:"https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/background/foreground/bg2.png",
+    
+        skin_bg3:"https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/background/foreground/bg3.png",
+    
+        skin_bg4:"https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/background/foreground/bg4.png",
+        land_at_home:false,
+    baguetteBoxON:false,
+    fancybox:false,
+    clipboardCopyright:false,
+
+        entry_content_style_src:"https://b8c989de08092805.ncname.com/wp-content/themes/Sakurairo/css/theme/sakura.css?2.1.0.1",
+        entry_content_style:"sakurairo",
+
+        jsdelivr_css_src:"https://b8c989de08092805.ncname.com/wp-content/themes/Sakurairo/css/lib.css?2.1.0.1",
+        
+    cover_api:"https://mikuo.top/wp-json/sakura/v1/image/cover",
+    random_graphs_mts:true,
+    windowheight:'auto',
+    code_highlight:"hljs",    
+    comment_upload_img:false};
+const mashiro_global = {};
+
+/*End of Initial Variables*/
+</script>
+<link rel="amphtml" href="https://mikuo.top/onepointapi-wen-dang/?amp=1"><style>#amp-mobile-version-switcher{position:absolute;width:100%;left:0;z-index:100}#amp-mobile-version-switcher>a{display:block;padding:15px 0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:16px;font-weight:600;color:#eaeaea;text-align:center;text-decoration:none;background-color:#444;border:0}#amp-mobile-version-switcher>a:active,#amp-mobile-version-switcher>a:focus,#amp-mobile-version-switcher>a:hover{text-decoration:underline}</style><link rel="alternate" type="text/html" media="only screen and (max-width: 640px)" href="https://mikuo.top/onepointapi-wen-dang/?amp=1"><script type="text/javascript">
+if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+  alert('朋友，IE浏览器未适配哦~\n如果是 360、QQ 等双核浏览器，请关闭 IE 模式！');
+}
+</script>
+</head>
+<body class="post-template-default single single-post postid-47 single-format-standard chinese-font  ">
+	<div class="scrollbar" id="bar"></div>
+	<section id="main-container">
+				<div id="page" class="site wrapper">
+			<header class="site-header no-select" role="banner">
+				<div class="site-top">
+					<div class="site-branding">
+												<span class="site-title">
+							<span class="logolink moe-mashiro">
+                                <a href="https://mikuo.top">
+                                    <ruby>
+                                    <!-- <span class="site-name">MiKuo</span> -->
+                                    <span class="sakuraso" style="font-family: 'wenyihei-subfont', 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;;"></span>
+                                    <span class="no" style="font-family: 'wenyihei-subfont', 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;"></span>
+                                    <span class="shironeko" style="font-family: 'wenyihei-subfont', 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;"></span>
+                                    <rp></rp><rt class="chinese-font"></rt><rp></rp></ruby>
+                                </a>
+                            </span>
+						</span>	
+						<!-- logo end -->
+					</div><!-- .site-branding -->
+					  <div class="header-user-avatar">
+    <a href="https://mikuo.top/wp-login.php">
+      <img   width="30" height="30" data-src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/topavatar.png" class="faa-shake animated-hover lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="faa-shake animated-hover" src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/topavatar.png" width="30" height="30"></noscript>
+    </a>
+    <div class="header-user-menu">
+ <div class="herder-user-name no-logged">  <a href="https://mikuo.top/wp-login.php" target="_blank" style="font-weight:bold;text-decoration:none">登录</a>  
+      </div>
+    </div>
+  </div>
+  					<div class="searchbox"><i class="iconfont js-toggle-search iconsearch icon-search"></i></div>
+										<div class="lower">						<nav><ul id="menu-%e8%8f%9c%e5%8d%951" class="menu"><li><a href="/">首页</a></li>
+<li><a href="https://mikuo.top/time/">归档</a>
+<ul class="sub-menu">
+	<li><a href="https://mikuo.top/time/thingking/">随想</a></li>
+	<li><a href="https://mikuo.top/time/article/">文章</a></li>
+</ul>
+</li>
+<li><a href="https://mikuo.top/menu/">清单</a>
+<ul class="sub-menu">
+	<li><a href="https://mikuo.top/menu/music/">歌单</a></li>
+	<li><a href="https://mikuo.top/fun/">番组</a></li>
+</ul>
+</li>
+<li><a href="/">链接</a>
+<ul class="sub-menu">
+	<li><a href="https://github.com/cxw9">github</a></li>
+</ul>
+</li>
+<li><a href="/">关于</a></li>
+</ul></nav><!-- #site-navigation -->
+					</div>	
+				</div>
+			</header><!-- #masthead -->
+			  <div class="pattern-center-blank"></div>
+  <div class="pattern-center single-center">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/load_svg/outload.svg)" data-src="https://mikuo.top/wp-content/uploads/2021/05/1617940438278.jpg"> </div>
+    <header class="pattern-header single-header"><h1 class="entry-title">onePointApi文档</h1><span class="toppic-line"></span><p class="entry-census"><span><a href="https://mikuo.top/author/super/"><img alt='' src='https://sdn.geekzu.org/avatar/13e30eb54003d2d431545a1a65bff4ca?s=64&#038;d=mm&#038;r=g' srcset='https://sdn.geekzu.org/avatar/13e30eb54003d2d431545a1a65bff4ca?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></a></span><span><a href="https://mikuo.top/author/super/">super</a></span><span class="bull">·</span>5 天前<span class="bull">·</span>71 次阅读</p></header>
+  </div>
+  		    <div id="content" class="site-content">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+		
+<div class="has-toc have-toc"></div>
+
+<article id="post-47" class="post-47 post type-post status-publish format-standard has-post-thumbnail hentry category-article">
+		<!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+	<div class="entry-content">
+		<h2>官网地址：https://vercel.com/</h2>
+<h3>1. 注册</h3>
+<p>注册很简单，一般直接 github 登录就好了，但是有一点问题是我github账户绑定<strong><em>qq邮箱</em></strong>的时候是注册侧边的的。<br />
+换成gmail就可以了。</p>
+<h3>2. 安装CLI</h3>
+<h4>- 安装nodejs</h4>
+<p>Nodejs 官方地址：https://nodejs.org/en/download/<br />
+直接官网下exe安装即可，不多介绍了</p>
+<h4>- 安装nowcli</h4>
+<p>打开 cmd 或者 PowerShell 输入</p>
+<pre><code class="language-go line-numbers">npm install -g now
+复制代码
+</code></pre>
+<h4>- 登录</h4>
+<p>安装完后再输入</p>
+<pre><code class="language-go line-numbers">now login
+复制代码
+</code></pre>
+<p>按提示输入邮箱（github绑定的邮箱）<br />
+然后会有一份邮件发到你邮箱，点击确认就行了。</p>
+<h3>3.安装onepoint</h3>
+<ol>
+<li>下载源码：https://github.com/ukuq/onepoint/archive/master.zip</li>
+<li>github仓库 https://github.com/ukuq/onepoint</li>
+<li>修改配置文件</li>
+<li>原作者对配置文件的说明：https://www.onesrc.cn/p/details-of-onepoint-configjson-configuration.html  （说明已经过期但仍可用）</li>
+</ol>
+<h4>4.报错</h4>
+<pre><code class="line-numbers">发布npm包
+注册并在本机添加npm用户（已注册可忽略）
+完成了上面的步骤之后，我们接下来要在www.npmjs.com注册一个账号，这个账号会被添加到npm本地的配置中，下面命令行将会使用到。
+//前提已完成npm用户的注册
+<span class="katex math inline">npm adduser
+Username: your name
+Password: your password
+Email: yourmail@gmail.com
+如果出现以下错误，可能是你的npm版本太低，通过sudo npm install -g npm升级一下。
+npm WARN adduser Incorrect username or password
+npm WARN adduser You can reset your account by visiting:
+npm WARN adduser
+npm WARN adduser     http://admin.npmjs.org/reset
+npm WARN adduser
+npm ERR! Error: forbidden may not mix password_sha and pbkdf2
+npm ERR! You may need to upgrade your version of npm:
+npm ERR!   npm install npm -g
+npm ERR! Note that this may need to be run as root/admin (sudo, etc.)
+成功之后，npm会把认证信息存储在~/.npmrc中，并且可以通过以下命令查看npm当前使用的用户：</span> npm whoami
+以上完成之后，我们终于可以发布自己包了。
+</code></pre>
+<p>1.npm adduser报错解决</p>
+<p>2.报错：Registry returned 409 for PUT on http://registry.npm.taobao.org/ -/user/org.couchdb.user</p>
+<pre><code class="line-numbers">npm登录的时候，报错409.
+原因：镜像源切到了淘宝源，需要将淘宝源切回到npm.
+解决方法：nrm use npm.  (需要安装nrm) (实测不可用(当你使用淘宝镜像时))
+或者： 
+npm login --registry http://registry.npmjs.org (实测可用(当你使用淘宝镜像时))
+npm publish --registry http://registry.npmjs.org
+</code></pre>
+<p>3.</p>
+				<!--<div class="oshimai"></div>-->
+		<!--<h2 style="opacity:0;max-height:0;margin:0">Comments</h2>--><!-- 评论跳转标记 -->
+	</div><!-- .entry-content -->
+		<footer class="post-footer">
+	<div class="post-tags">
+			</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+<div class="toc-container"><div class="toc"></div></div>
+<section class="post-squares nextprev">
+	<div class="post-nepre half previous">
+		<a href="https://mikuo.top/jsonserver/" rel="prev"><div class="background lazyload" style="background-image:url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/theme/colorful/load/outload.svg);" data-src="https://mikuo.top/wp-content/uploads/2021/05/1617940438306-1024x459-1.jpg"></div><span class="label">Previous Post</span><div class="info"><h3>json-server</h3><hr></div></a>	</div>
+	<div class="post-nepre half next">
+		<a href="https://mikuo.top/pythonfastapi-kuai-su-zuo-api-jie-kou/" rel="next"><div class="background lazyload" style="background-image:url(https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/theme/colorful/load/outload.svg);" data-src="https://mikuo.top/wp-content/uploads/2021/05/1617940438259-1024x576-1.jpg"></div><span class="label">Next Post</span><div class="info"><h3>python FastApi 快速做api接口</h3><hr></div></a>	</div>
+</section>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+	</div><!-- #content -->
+	
+	
+	<section id="comments" class="comments">
+
+		<div class="commentwrap comments-hidden">
+			<div class="notification"><i class="iconfont icon-mark"></i>查看评论 -
+			<span class="noticom">NOTHING </span>
+			</div>
+		</div>
+
+		<div class="comments-main">
+		 <h3 id="comments-list-title">Comments | <span class="noticom">NOTHING </span></h3> 
+		<div id="loading-comments"><span></span></div>
+			
+									<div class="commentwrap">
+						<div class="notification-hidden"><i class="iconfont icon-mark"></i> 暂无评论</div>
+					
+					</div>
+				
+			
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/onepointapi-wen-dang/#respond" style="display:none;">取消回复</a></small></h3><form action="https://mikuo.top/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p style="font-style:italic"><a href="https://segmentfault.com/markdown" target="_blank"><i class="iconfont icon-markdown" style="color:#000"></i></a> Markdown Supported while <i class="fa fa-code" aria-hidden="true"></i> Forbidden</p><div class="comment-textarea"><textarea placeholder="你是我一生只会遇见一次的惊喜 ..." name="comment" class="commentbody" id="comment" rows="5" tabindex="4"></textarea><label class="input-label">你是我一生只会遇见一次的惊喜 ...</label></div>
+                        <div id="upload-img-show"></div>
+                        <!--插入表情面版-->
+                        <p id="emotion-toggle" class="no-select">
+                            <span class="emotion-toggle-off">戳我呀 OωO</span>
+                            <span class="emotion-toggle-on">嘿嘿嘿 ヾ(≧∇≦*)ゝ</span>
+                        </p>
+                        <div class="emotion-box no-select">
+                            <table class="motion-switcher-table">
+                                <tr><th onclick="motionSwitch('.bili')" 
+					class="bili-bar on-hover">bilibili~</th>
+                                    <th onclick="motionSwitch('.menhera')"
+                                        class="menhera-bar">(=・ω・=)</th>
+                                    <th onclick="motionSwitch('.tieba')"
+                                        class="tieba-bar">Tieba</th>
+                                </tr>
+                            </table>
+                            <div class="bili-container motion-container"><span title="baiyan" onclick="grin('baiyan',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_baiyan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_baiyan.png" /></noscript></span><span title="bishi" onclick="grin('bishi',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_bishi.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_bishi.png" /></noscript></span><span title="bizui" onclick="grin('bizui',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_bizui.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_bizui.png" /></noscript></span><span title="chan" onclick="grin('chan',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_chan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_chan.png" /></noscript></span><span title="dai" onclick="grin('dai',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dai.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dai.png" /></noscript></span><span title="daku" onclick="grin('daku',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_daku.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_daku.png" /></noscript></span><span title="dalao" onclick="grin('dalao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dalao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dalao.png" /></noscript></span><span title="dalian" onclick="grin('dalian',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dalian.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dalian.png" /></noscript></span><span title="dianzan" onclick="grin('dianzan',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dianzan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_dianzan.png" /></noscript></span><span title="doge" onclick="grin('doge',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_doge.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_doge.png" /></noscript></span><span title="facai" onclick="grin('facai',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_facai.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_facai.png" /></noscript></span><span title="fanu" onclick="grin('fanu',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_fanu.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_fanu.png" /></noscript></span><span title="ganga" onclick="grin('ganga',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_ganga.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_ganga.png" /></noscript></span><span title="guilian" onclick="grin('guilian',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_guilian.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_guilian.png" /></noscript></span><span title="guzhang" onclick="grin('guzhang',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_guzhang.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_guzhang.png" /></noscript></span><span title="haixiu" onclick="grin('haixiu',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_haixiu.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_haixiu.png" /></noscript></span><span title="heirenwenhao" onclick="grin('heirenwenhao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_heirenwenhao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_heirenwenhao.png" /></noscript></span><span title="huaixiao" onclick="grin('huaixiao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_huaixiao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_huaixiao.png" /></noscript></span><span title="jingxia" onclick="grin('jingxia',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_jingxia.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_jingxia.png" /></noscript></span><span title="keai" onclick="grin('keai',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_keai.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_keai.png" /></noscript></span><span title="koubizi" onclick="grin('koubizi',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_koubizi.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_koubizi.png" /></noscript></span><span title="kun" onclick="grin('kun',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_kun.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_kun.png" /></noscript></span><span title="lengmo" onclick="grin('lengmo',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_lengmo.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_lengmo.png" /></noscript></span><span title="liubixue" onclick="grin('liubixue',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liubixue.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liubixue.png" /></noscript></span><span title="liuhan" onclick="grin('liuhan',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liuhan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liuhan.png" /></noscript></span><span title="liulei" onclick="grin('liulei',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liulei.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_liulei.png" /></noscript></span><span title="miantian" onclick="grin('miantian',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_miantian.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_miantian.png" /></noscript></span><span title="mudengkoudai" onclick="grin('mudengkoudai',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_mudengkoudai.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_mudengkoudai.png" /></noscript></span><span title="nanguo" onclick="grin('nanguo',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_nanguo.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_nanguo.png" /></noscript></span><span title="outu" onclick="grin('outu',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_outu.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_outu.png" /></noscript></span><span title="qinqin" onclick="grin('qinqin',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_qinqin.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_qinqin.png" /></noscript></span><span title="se" onclick="grin('se',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_se.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_se.png" /></noscript></span><span title="shengbing" onclick="grin('shengbing',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shengbing.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shengbing.png" /></noscript></span><span title="shengqi" onclick="grin('shengqi',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shengqi.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shengqi.png" /></noscript></span><span title="shuizhao" onclick="grin('shuizhao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shuizhao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_shuizhao.png" /></noscript></span><span title="sikao" onclick="grin('sikao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_sikao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_sikao.png" /></noscript></span><span title="tiaokan" onclick="grin('tiaokan',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tiaokan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tiaokan.png" /></noscript></span><span title="tiaopi" onclick="grin('tiaopi',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tiaopi.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tiaopi.png" /></noscript></span><span title="touxiao" onclick="grin('touxiao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_touxiao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_touxiao.png" /></noscript></span><span title="tuxue" onclick="grin('tuxue',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tuxue.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_tuxue.png" /></noscript></span><span title="weiqu" onclick="grin('weiqu',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_weiqu.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_weiqu.png" /></noscript></span><span title="weixiao" onclick="grin('weixiao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_weixiao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_weixiao.png" /></noscript></span><span title="wunai" onclick="grin('wunai',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_wunai.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_wunai.png" /></noscript></span><span title="xiaoku" onclick="grin('xiaoku',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_xiaoku.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_xiaoku.png" /></noscript></span><span title="xieyanxiao" onclick="grin('xieyanxiao',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_xieyanxiao.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_xieyanxiao.png" /></noscript></span><span title="yiwen" onclick="grin('yiwen',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_yiwen.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_yiwen.png" /></noscript></span><span title="yun" onclick="grin('yun',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_yun.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_yun.png" /></noscript></span><span title="zaijian" onclick="grin('zaijian',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zaijian.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zaijian.png" /></noscript></span><span title="zhoumei" onclick="grin('zhoumei',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zhoumei.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zhoumei.png" /></noscript></span><span title="zhuakuang" onclick="grin('zhuakuang',type = 'Math')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zhuakuang.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/bilipng/emoji_zhuakuang.png" /></noscript></span></div><div class="menhera-container motion-container" style="display:none;">
+        <a class="emoji-item">(⌒▽⌒)</a>
+        <a class="emoji-item">（￣▽￣）</a>
+        <a class="emoji-item">(=・ω・=)</a>
+        <a class="emoji-item">(｀・ω・´)</a>
+        <a class="emoji-item">(〜￣△￣)〜</a>
+        <a class="emoji-item">(･∀･)</a>
+        <a class="emoji-item">(°∀°)ﾉ</a>
+        <a class="emoji-item">(￣3￣)</a>
+        <a class="emoji-item">╮(￣▽￣)╭</a>
+        <a class="emoji-item">(´_ゝ｀)</a>
+        <a class="emoji-item">←_←</a>
+        <a class="emoji-item">→_→</a>
+        <a class="emoji-item">(&lt;_&lt;)</a>
+        <a class="emoji-item">(&gt;_&gt;)</a>
+        <a class="emoji-item">(;¬_¬)</a>
+        <a class="emoji-item">("▔□▔)/</a>
+        <a class="emoji-item">(ﾟДﾟ≡ﾟдﾟ)!?</a>
+        <a class="emoji-item">Σ(ﾟдﾟ;)</a>
+        <a class="emoji-item">Σ(￣□￣||)</a>
+        <a class="emoji-item">(’；ω；‘)</a>
+        <a class="emoji-item">（/TДT)/</a>
+        <a class="emoji-item">(^・ω・^ )</a>
+        <a class="emoji-item">(｡･ω･｡)</a>
+        <a class="emoji-item">(●￣(ｴ)￣●)</a>
+        <a class="emoji-item">ε=ε=(ノ≧∇≦)ノ</a>
+        <a class="emoji-item">(’･_･‘)</a>
+        <a class="emoji-item">(-_-#)</a>
+        <a class="emoji-item">（￣へ￣）</a>
+        <a class="emoji-item">(￣ε(#￣)Σ</a>
+        <a class="emoji-item">ヽ(‘Д’)ﾉ</a>
+        <a class="emoji-item">（#-_-)┯━┯</a>
+        <a class="emoji-item">(╯°口°)╯(┴—┴</a>
+        <a class="emoji-item">←◡←</a>
+        <a class="emoji-item">( ♥д♥)</a>
+        <a class="emoji-item">_(:3」∠)_</a>
+        <a class="emoji-item">Σ&gt;―(〃°ω°〃)♡→</a>
+        <a class="emoji-item">⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄</a>
+        <a class="emoji-item">(╬ﾟдﾟ)▄︻┻┳═一</a>
+        <a class="emoji-item">･*･:≡(　ε:)</a>
+        <a class="emoji-item">(笑)</a>
+        <a class="emoji-item">(汗)</a>
+        <a class="emoji-item">(泣)</a>
+        <a class="emoji-item">(苦笑)</a>
+    
+                            </div>
+                            <div class="tieba-container motion-container" style="display:none;"><span title="good" onclick="grin('good',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_good.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_good.png" /></noscript></span><span title="han" onclick="grin('han',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_han.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_han.png" /></noscript></span><span title="spray" onclick="grin('spray',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_spray.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_spray.png" /></noscript></span><span title="Grievance" onclick="grin('Grievance',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_Grievance.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_Grievance.png" /></noscript></span><span title="shui" onclick="grin('shui',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_shui.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_shui.png" /></noscript></span><span title="reluctantly" onclick="grin('reluctantly',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_reluctantly.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_reluctantly.png" /></noscript></span><span title="anger" onclick="grin('anger',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_anger.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_anger.png" /></noscript></span><span title="tongue" onclick="grin('tongue',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_tongue.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_tongue.png" /></noscript></span><span title="se" onclick="grin('se',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_se.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_se.png" /></noscript></span><span title="haha" onclick="grin('haha',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_haha.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_haha.png" /></noscript></span><span title="rmb" onclick="grin('rmb',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_rmb.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_rmb.png" /></noscript></span><span title="doubt" onclick="grin('doubt',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_doubt.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_doubt.png" /></noscript></span><span title="tear" onclick="grin('tear',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_tear.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_tear.png" /></noscript></span><span title="surprised2" onclick="grin('surprised2',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_surprised2.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_surprised2.png" /></noscript></span><span title="Happy" onclick="grin('Happy',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_Happy.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_Happy.png" /></noscript></span><span title="ku" onclick="grin('ku',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_ku.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_ku.png" /></noscript></span><span title="surprised" onclick="grin('surprised',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_surprised.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_surprised.png" /></noscript></span><span title="theblackline" onclick="grin('theblackline',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_theblackline.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_theblackline.png" /></noscript></span><span title="smilingeyes" onclick="grin('smilingeyes',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_smilingeyes.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_smilingeyes.png" /></noscript></span><span title="spit" onclick="grin('spit',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_spit.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_spit.png" /></noscript></span><span title="huaji" onclick="grin('huaji',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_huaji.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_huaji.png" /></noscript></span><span title="bbd" onclick="grin('bbd',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_bbd.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_bbd.png" /></noscript></span><span title="hu" onclick="grin('hu',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_hu.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_hu.png" /></noscript></span><span title="shame" onclick="grin('shame',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_shame.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_shame.png" /></noscript></span><span title="naive" onclick="grin('naive',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_naive.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_naive.png" /></noscript></span><span title="rbq" onclick="grin('rbq',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_rbq.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_rbq.png" /></noscript></span><span title="britan" onclick="grin('britan',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_britan.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_britan.png" /></noscript></span><span title="aa" onclick="grin('aa',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_aa.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_aa.png" /></noscript></span><span title="niconiconi" onclick="grin('niconiconi',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconi.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconi.png" /></noscript></span><span title="niconiconi_t" onclick="grin('niconiconi_t',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconi_t.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconi_t.png" /></noscript></span><span title="niconiconit" onclick="grin('niconiconit',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconit.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_niconiconit.png" /></noscript></span><span title="awesome" onclick="grin('awesome',type = 'tieba')"><img data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_awesome.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/smilies/tiebapng/icon_awesome.png" /></noscript></span></div>
+                        </div>
+                        <!--表情面版完--><div class="cmt-info-container"><div class="comment-user-avatar"><img  data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/avatar.jpeg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/avatar.jpeg"></noscript><div class="socila-check qq-check"><i class="fa fa-qq" aria-hidden="true"></i></div><div class="socila-check gravatar-check"><i class="fa fa-google" aria-hidden="true"></i></div></div>
+<div class="popup cmt-popup cmt-author" onclick="cmt_showPopup(this)"><span class="popuptext" id="thePopup" style="margin-left: -115px;width: 230px;">输入QQ号将自动拉取昵称和头像</span><input type="text" placeholder="昵称或QQ号 (昵称 )" name="author" id="author" value="" size="22" autocomplete="off" tabindex="1" aria-required='true' /></div>
+<div class="popup cmt-popup" onclick="cmt_showPopup(this)"><span class="popuptext" id="thePopup" style="margin-left: -65px;width: 130px;">你将收到回复通知</span><input type="text" placeholder="邮箱 (必须* )" name="email" id="email" value="" size="22" tabindex="1" autocomplete="off" aria-required='true' /></div>
+<div class="popup cmt-popup" onclick="cmt_showPopup(this)"><span class="popuptext" id="thePopup" style="margin-left: -55px;width: 110px;">禁止小广告😀</span><input type="text" placeholder="网站" name="url" id="url" value="" size="22" autocomplete="off" tabindex="1" /></div></div><label class="siren-checkbox-label"><input class="siren-checkbox-radio" type="checkbox" name="no-robot"><span class="siren-no-robot-checkbox siren-checkbox-radioInput"></span>我可不是机器人呢</label><label class="siren-checkbox-label"><input class="siren-checkbox-radio" type="checkbox" name="is-private"><span class="siren-is-private-checkbox siren-checkbox-radioInput"></span>私密评论</label>
+<input type="text" placeholder="QQ" name="new_field_qq" id="qq" value="" style="display:none" autocomplete="off"/><!--此栏不可见-->
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">在此浏览器中保存我的显示名称、邮箱地址和网站网址，以便下次评论时使用。</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="BiuBiuBiu~" /> <input type='hidden' name='comment_post_ID' value='47' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	
+		</div>
+
+
+	</section>
+</div><!-- #page Pjax container-->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info" theme-info="Sakurairo v2.1.0.1">
+			<div class="footertext">
+				<div class="img-preload">
+					<img  data-src='https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/load_svg/ball.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/load_svg/ball.svg"></noscript><!-- 加载下一部分圈圈 -->
+				</div>
+				</p>
+				<p style="color: #666666;"></p>
+			</div>
+			<div class="footer-device">
+			<p style="font-family: 'Ubuntu', sans-serif;">
+					<span style="color: #b9b9b9;">
+												                         耗时 0.419 秒 | 查询 27 次 | 内存 14.75 MB                        </p>
+						Theme <a href="https://github.com/mirai-mamori/Sakurairo" target="_blank" id="site-info" >Sakurairo</a>  by <a href="https://iro.tw" target="_blank" id="site-info" >Fuukei</a> 
+					</span>
+				</p>
+			</div>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+	<div class="openNav no-select">
+		<div class="iconflat no-select">	 
+			<div class="icon"></div>
+		</div>
+		<div class="site-branding">
+						<h1 class="site-title"></h1>
+					</div>
+	</div><!-- m-nav-bar -->
+	</section><!-- #section -->
+	<!-- m-nav-center -->
+	<div id="mo-nav">
+		<div class="m-avatar">
+						<img src=" https://p.pstatp.com/origin/pgc-image/9870556392b2422a9912eb4460f29032">
+		</div>
+		<div class="m-search">
+			<form class="m-search-form" method="get" action="https://mikuo.top" role="search">
+				<input class="m-search-input" type="search" name="s" placeholder="搜索..." required>
+			</form>
+		</div>
+		<ul id="menu-%e8%8f%9c%e5%8d%951-1" class="menu"><li><a href="/">首页</a></li>
+<li><a href="https://mikuo.top/time/">归档</a>
+<ul class="sub-menu">
+	<li><a href="https://mikuo.top/time/thingking/">随想</a></li>
+	<li><a href="https://mikuo.top/time/article/">文章</a></li>
+</ul>
+</li>
+<li><a href="https://mikuo.top/menu/">清单</a>
+<ul class="sub-menu">
+	<li><a href="https://mikuo.top/menu/music/">歌单</a></li>
+	<li><a href="https://mikuo.top/fun/">番组</a></li>
+</ul>
+</li>
+<li><a href="/">链接</a>
+<ul class="sub-menu">
+	<li><a href="https://github.com/cxw9">github</a></li>
+</ul>
+</li>
+<li><a href="/">关于</a></li>
+</ul>	</div><!-- m-nav-center end -->
+	<a class="cd-top faa-float animated "></a>
+	<button id="moblieGoTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    <button id="changskin" style="bottom: 15px;"><i class="iconfont icon-gear inline-block rotating"></i></button>
+	<!-- search start -->
+	<form class="js-search search-form search-form--modal" method="get" action="https://mikuo.top" role="search">
+		<div class="search-form__inner">
+					<div class="micro">
+				<p class="micro mb-">想要找点什么呢？</p>
+				<i class="iconfont icon-search"></i>
+				<input class="text-input" type="search" name="s" placeholder="搜索" required>
+			</div>
+				</div>
+		<div class="search_close"></div>
+	</form>
+	<!-- search end -->
+		<div id="amp-mobile-version-switcher" hidden>
+			<a rel="amphtml" href="https://mikuo.top/onepointapi-wen-dang/?amp=1">
+				转到手机版			</a>
+		</div>
+
+				<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/jQuery/jquery.min.js?ver=10.2.1' id='jQuery-CDN-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/KaTeX/katex.min.js?ver=10.2.1' id='Katex-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Emojify.js/js/emojify.min.js?ver=10.2.1' id='Emojify.js-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/ClipBoard/clipboard.min.js?ver=2.0.1' id='copy-clipboard-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/components/prism-core.min.js?ver=1.15.0' id='prism-core-js-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/autoloader/prism-autoloader.min.js?ver=1.15.0' id='prism-plugin-autoloader-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/toolbar/prism-toolbar.min.js?ver=1.15.0' id='prism-plugin-toolbar-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/line-numbers/prism-line-numbers.min.js?ver=1.15.0' id='prism-plugin-line-numbers-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/show-language/prism-show-language.min.js?ver=1.15.0' id='prism-plugin-show-language-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js?ver=1.15.0' id='prism-plugin-copy-to-clipboard-js'></script>
+<script type='text/javascript' id='Front_Style-js-extra'>
+/* <![CDATA[ */
+var FrontStyle = {"openLinkInNewTab":"on"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/FrontStyle/frontstyle.min.js?ver=10.2.1' id='Front_Style-js'></script>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/mikuo.top","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' src='https://b8c989de08092805.ncname.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js?ver=3.8.4' id='smush-lazy-load-js'></script>
+<script type='text/javascript' src='https://mikuo.top/wp-content/themes/Sakurairo/js/smoothscroll.js?ver=2.1.0.1' id='SmoothScroll-js'></script>
+<script type='text/javascript' id='app-js-extra'>
+/* <![CDATA[ */
+var Poi = {"pjax":"1","movies":"close","windowheight":"auto","ajaxurl":"https:\/\/mikuo.top\/wp-admin\/admin-ajax.php","order":"asc","formpostion":"bottom","reply_link_version":"new","api":"https:\/\/mikuo.top\/wp-json\/","nonce":"52fecb9dd7","google_analytics_id":"","gravatar_url":"sdn.geekzu.org\/avatar"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://mikuo.top/wp-content/themes/Sakurairo/js/app.js?ver=2.1.0.1' id='app-js'></script>
+<script type='text/javascript' src='https://b8c989de08092805.ncname.com/wp-includes/js/comment-reply.min.js?ver=5.7.2' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://mikuo.top/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+        <script type="text/javascript">
+            (function ($) {
+                $(document).ready(function () {
+                    $(".katex.math.inline").each(function () {
+                        var parent = $(this).parent()[0];
+                        if (parent.localName !== "code") {
+                            var texTxt = $(this).text();
+                            var el = $(this).get(0);
+                            try {
+                                katex.render(texTxt, el);
+                            } catch (err) {
+                                $(this).html("<span class=\"err\">" + err);
+                            }
+                        } else {
+                            $(this).parent().text($(this).parent().text());
+                        }
+                    });
+                    $(".katex.math.multi-line").each(function () {
+                        var texTxt = $(this).text();
+                        var el = $(this).get(0);
+                        try {
+                            katex.render(texTxt, el, {displayMode: true})
+                        } catch (err) {
+                            $(this).html("<span class=\"err\">" + err)
+                        }
+                    });
+                })
+            })(jQuery);
+        </script>
+                <script type="text/javascript">
+            window.onload = function () {
+                emojify.setConfig({
+                    img_dir: "https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Emojify.js/images/basic",//前端emoji资源地址
+                    blacklist: {
+                        "ids": [],
+                        "classes": ["no-emojify"],
+                        "elements": ["^script$", "^textarea$", "^pre$", "^code$"]
+                    }
+                });
+                emojify.run();
+            }
+        </script>
+                <script type="text/javascript">
+            Prism.plugins.autoloader.languages_path = "https://cdn.jsdelivr.net/wp/wp-editormd/tags/10.2.1/assets/Prism.js/components/";
+        </script>
+        <div class="skin-menu no-select">
+</p>Style
+    <div class="theme-controls row-container">
+        <ul class="menu-list">
+            <li id="white-bg">
+                <i class="fa fa-television" aria-hidden="true"></i>
+			</li><!--Default-->
+			            <li id="diy1-bg">
+			    <i class="fa fa-heart-o" aria-hidden="true"></i>
+			</li><!--Diy1-->
+						            <li id="diy2-bg">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+			</li><!--Diy2-->
+						            <li id="diy3-bg">
+			    <i class="fa fa-delicious" aria-hidden="true"></i>
+			</li><!--Diy3-->
+						            <li id="diy4-bg">
+			    <i class="fa fa-lemon-o" aria-hidden="true"></i>
+			</li><!--Diy4-->
+			            <li id="dark-bg">
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </li><!--Night-->
+        </ul>
+	</div>
+	</p>
+		Font
+    <div class="font-family-controls row-container">
+        <button type="button" class="control-btn-serif selected" data-mode="serif" 
+                onclick="mashiro_global.font_control.change_font()"><i class="fa fa-font" aria-hidden="true"></i></button>
+        <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" 
+                onclick="mashiro_global.font_control.change_font()"><i class="fa fa-bold" aria-hidden="true"></i></button>
+	</div>
+	</div>
+
+<!-- 飘落动效 -->
+
+<!-- 首页波浪特效 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/static/css/bolang.css">
+
+<!-- Live2D看板娘 -->
+
+<!-- logo字体部分 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/acai66/mydl/fonts/wenyihei/wenyihei-subfont.css" media="all">
+
+</body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 4072 objects (205 KB) from Redis using PhpRedis (v5.3.4).
+-->
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1621749005 -->
