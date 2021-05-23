@@ -1,0 +1,347 @@
+0000.000 (0) Opened log file at time: Tue, 18 May 2021 06:57:14 +0000 on https://mikuo.top
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.57.25 WP: 5.7.2 PHP: 7.4.19 (fpm-fcgi, Linux racknerd-528ea0 4.11.8-1.el7.elrepo.x86_64 #1 SMP Thu Jun 29 10:01:10 EDT 2017 x86_64) MySQL: 5.6.32-log WPLANG: zh_CN Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.1M | 4M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 22723.2 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.016 (0) Semaphore (fd, dm_options) being initialised
+0000.023 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.030 (0) Set semaphore last lock (fd) time to 2021-05-18 06:57:14
+0000.032 (0) Semaphore lock (fd) complete
+0000.039 (0) Backup run: resumption=0, nonce=c69d791f849b, file_nonce=c69d791f849b begun at=1621321034 (0s ago), job type=backup, label=更新前自动备份
+0000.043 (0) Scheduling a resumption (1) after 300 seconds (1621321334) in case this run gets aborted
+0000.098 (0) Checking if we have a zip executable available
+0000.103 (0) Creation of backups of directories: beginning
+0000.115 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.169 (0) Total entities for the zip file: 1689 directories, 10244 files (0 skipped as non-modified), 109.9 MB
+0003.178 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.266 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 100 files added (on-disk size: 299.4 KB)
+0003.291 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 200 files added (on-disk size: 299.4 KB)
+0003.316 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 300 files added (on-disk size: 299.4 KB)
+0003.341 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 400 files added (on-disk size: 299.4 KB)
+0003.370 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 500 files added (on-disk size: 299.4 KB)
+0003.397 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 600 files added (on-disk size: 299.4 KB)
+0003.419 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 700 files added (on-disk size: 299.4 KB)
+0003.440 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 800 files added (on-disk size: 299.4 KB)
+0003.464 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 900 files added (on-disk size: 299.4 KB)
+0003.494 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1000 files added (on-disk size: 299.4 KB)
+0003.503 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.3 MB, 10244 files batched, 1001 (1002) added so far); re-opening (prior size: 299.4 KB)
+0004.028 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1100 files added (on-disk size: 2388.3 KB)
+0004.048 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1200 files added (on-disk size: 2388.3 KB)
+0004.071 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1300 files added (on-disk size: 2388.3 KB)
+0004.099 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1400 files added (on-disk size: 2388.3 KB)
+0004.116 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1500 files added (on-disk size: 2388.3 KB)
+0004.135 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1600 files added (on-disk size: 2388.3 KB)
+0004.155 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1700 files added (on-disk size: 2388.3 KB)
+0004.181 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1800 files added (on-disk size: 2388.3 KB)
+0004.201 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 1900 files added (on-disk size: 2388.3 KB)
+0004.222 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2000 files added (on-disk size: 2388.3 KB)
+0004.227 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 10244 files batched, 1001 (2003) added so far); re-opening (prior size: 2388.3 KB)
+0005.487 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2100 files added (on-disk size: 6432.7 KB)
+0005.514 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2200 files added (on-disk size: 6432.7 KB)
+0005.537 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2300 files added (on-disk size: 6432.7 KB)
+0005.568 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2400 files added (on-disk size: 6432.7 KB)
+0005.595 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2500 files added (on-disk size: 6432.7 KB)
+0005.626 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2600 files added (on-disk size: 6432.7 KB)
+0005.656 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2700 files added (on-disk size: 6432.7 KB)
+0005.685 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2800 files added (on-disk size: 6432.7 KB)
+0005.711 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 2900 files added (on-disk size: 6432.7 KB)
+0005.729 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3000 files added (on-disk size: 6432.7 KB)
+0005.733 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9 MB, 10244 files batched, 1001 (3004) added so far); re-opening (prior size: 6432.7 KB)
+0007.376 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3100 files added (on-disk size: 8566.4 KB)
+0007.397 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3200 files added (on-disk size: 8566.4 KB)
+0007.421 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3300 files added (on-disk size: 8566.4 KB)
+0007.443 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3400 files added (on-disk size: 8566.4 KB)
+0007.462 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3500 files added (on-disk size: 8566.4 KB)
+0007.486 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3600 files added (on-disk size: 8566.4 KB)
+0007.508 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3700 files added (on-disk size: 8566.4 KB)
+0007.534 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3800 files added (on-disk size: 8566.4 KB)
+0007.562 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 3900 files added (on-disk size: 8566.4 KB)
+0007.592 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4000 files added (on-disk size: 8566.4 KB)
+0007.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 10244 files batched, 1001 (4005) added so far); re-opening (prior size: 8566.4 KB)
+0008.444 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4100 files added (on-disk size: 11730.9 KB)
+0008.475 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4200 files added (on-disk size: 11730.9 KB)
+0008.514 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4300 files added (on-disk size: 11730.9 KB)
+0008.552 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4400 files added (on-disk size: 11730.9 KB)
+0008.579 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4500 files added (on-disk size: 11730.9 KB)
+0008.622 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4600 files added (on-disk size: 11730.9 KB)
+0008.651 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4700 files added (on-disk size: 11730.9 KB)
+0008.683 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4800 files added (on-disk size: 11730.9 KB)
+0008.703 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 4900 files added (on-disk size: 11730.9 KB)
+0008.728 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5000 files added (on-disk size: 11730.9 KB)
+0008.734 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.2 MB, 10244 files batched, 1001 (5006) added so far); re-opening (prior size: 11730.9 KB)
+0009.837 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5100 files added (on-disk size: 14653.4 KB)
+0009.875 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5200 files added (on-disk size: 14653.4 KB)
+0009.898 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5300 files added (on-disk size: 14653.4 KB)
+0009.919 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5400 files added (on-disk size: 14653.4 KB)
+0009.945 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5500 files added (on-disk size: 14653.4 KB)
+0009.965 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5600 files added (on-disk size: 14653.4 KB)
+0009.986 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5700 files added (on-disk size: 14653.4 KB)
+0010.006 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5800 files added (on-disk size: 14653.4 KB)
+0010.027 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 5900 files added (on-disk size: 14653.4 KB)
+0010.047 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6000 files added (on-disk size: 14653.4 KB)
+0010.054 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 10244 files batched, 1001 (6007) added so far); re-opening (prior size: 14653.4 KB)
+0010.969 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6100 files added (on-disk size: 18098.1 KB)
+0010.993 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6200 files added (on-disk size: 18098.1 KB)
+0011.016 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6300 files added (on-disk size: 18098.1 KB)
+0011.037 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6400 files added (on-disk size: 18098.1 KB)
+0011.059 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6500 files added (on-disk size: 18098.1 KB)
+0011.080 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6600 files added (on-disk size: 18098.1 KB)
+0011.098 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6700 files added (on-disk size: 18098.1 KB)
+0011.119 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6800 files added (on-disk size: 18098.1 KB)
+0011.144 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 6900 files added (on-disk size: 18098.1 KB)
+0011.168 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7000 files added (on-disk size: 18098.1 KB)
+0011.173 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.7 MB, 10244 files batched, 1001 (7008) added so far); re-opening (prior size: 18098.1 KB)
+0012.813 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7100 files added (on-disk size: 24889.6 KB)
+0012.844 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7200 files added (on-disk size: 24889.6 KB)
+0012.867 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7300 files added (on-disk size: 24889.6 KB)
+0012.889 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7400 files added (on-disk size: 24889.6 KB)
+0012.911 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7500 files added (on-disk size: 24889.6 KB)
+0012.934 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7600 files added (on-disk size: 24889.6 KB)
+0012.956 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7700 files added (on-disk size: 24889.6 KB)
+0012.978 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7800 files added (on-disk size: 24889.6 KB)
+0012.999 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 7900 files added (on-disk size: 24889.6 KB)
+0013.020 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8000 files added (on-disk size: 24889.6 KB)
+0013.026 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5 MB, 10244 files batched, 1001 (8009) added so far); re-opening (prior size: 24889.6 KB)
+0013.703 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8100 files added (on-disk size: 27779.7 KB)
+0013.730 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8200 files added (on-disk size: 27779.7 KB)
+0013.755 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8300 files added (on-disk size: 27779.7 KB)
+0013.788 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8400 files added (on-disk size: 27779.7 KB)
+0013.895 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8500 files added (on-disk size: 27779.7 KB)
+0014.021 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8600 files added (on-disk size: 27779.7 KB)
+0014.139 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8700 files added (on-disk size: 27779.7 KB)
+0014.248 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8800 files added (on-disk size: 27779.7 KB)
+0014.335 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 8900 files added (on-disk size: 27779.7 KB)
+0014.442 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9000 files added (on-disk size: 27779.7 KB)
+0014.484 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.2 MB, 10244 files batched, 1001 (9010) added so far); re-opening (prior size: 27779.7 KB)
+0016.113 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9100 files added (on-disk size: 33482.1 KB)
+0016.138 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9200 files added (on-disk size: 33482.1 KB)
+0016.161 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9300 files added (on-disk size: 33482.1 KB)
+0016.182 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9400 files added (on-disk size: 33482.1 KB)
+0016.200 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9500 files added (on-disk size: 33482.1 KB)
+0016.220 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9600 files added (on-disk size: 33482.1 KB)
+0016.243 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9700 files added (on-disk size: 33482.1 KB)
+0016.269 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9800 files added (on-disk size: 33482.1 KB)
+0016.292 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 9900 files added (on-disk size: 33482.1 KB)
+0016.313 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 10000 files added (on-disk size: 33482.1 KB)
+0016.318 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.7 MB, 10244 files batched, 1001 (10011) added so far); re-opening (prior size: 33482.1 KB)
+0017.610 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 10100 files added (on-disk size: 38880.7 KB)
+0017.631 (0) Zip: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip.tmp: 10200 files added (on-disk size: 38880.7 KB)
+0019.399 (0) Created plugins zip (0) - 41659.5 KB in 19.3 s (2160.8 KB/s) (sha1: f81ac45f73903e794f7f9c6f7b58a4913b2d7199, sha256: 9385a821e79709202bba31a32d347058829c667d73546de1046bd9612dfa35c4)
+0019.405 (0) No backup of themes: excluded by user's options
+0019.408 (0) No backup of uploads: excluded by user's options
+0019.410 (0) No backup of wpcore: excluded by user's options
+0019.413 (0) No backup of others: excluded by user's options
+0019.416 (0) No backup of more: excluded by user's options
+0019.427 (0) Saving backup status to database (elements: 2)
+0019.432 (0) Beginning creation of database dump (WordPress DB)
+0019.435 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0019.454 (0) Table dm_options: Total expected rows (approximate): 332
+0019.531 (0) Table dm_options: Rows added in this batch (next record: 541): 335 (uncompressed bytes in this segment=912353) in 0.07 seconds
+0019.541 (0) Table dm_options: finishing file(s) (2, 249.7 KB)
+0019.550 (0) Table dm_users: Total expected rows (approximate): 0
+0019.554 (0) Table dm_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1374) in 0.00 seconds
+0019.562 (0) Table dm_users: finishing file(s) (2, 0.6 KB)
+0019.567 (0) Table dm_usermeta: Total expected rows (approximate): 25
+0019.571 (0) Table dm_usermeta: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=3953) in 0.00 seconds
+0019.578 (0) Table dm_usermeta: finishing file(s) (2, 1.5 KB)
+0019.587 (0) Table dm_actionscheduler_actions: Total expected rows (approximate): 32
+0019.597 (0) Table dm_actionscheduler_actions: Rows added in this batch (next record: 37): 32 (uncompressed bytes in this segment=13561) in 0.00 seconds
+0019.606 (0) Table dm_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0019.612 (0) Table dm_actionscheduler_claims: Total expected rows (approximate): 0
+0019.617 (0) Table dm_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0019.628 (0) Table dm_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0019.633 (0) Table dm_actionscheduler_groups: Total expected rows (approximate): 5
+0019.638 (0) Table dm_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=765) in 0.00 seconds
+0019.647 (0) Table dm_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0019.655 (0) Table dm_actionscheduler_logs: Total expected rows (approximate): 85
+0019.662 (0) Table dm_actionscheduler_logs: Rows added in this batch (next record: 88): 88 (uncompressed bytes in this segment=8217) in 0.00 seconds
+0019.671 (0) Table dm_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0019.677 (0) Table dm_commentmeta: Total expected rows (approximate): 0
+0019.681 (0) Table dm_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0019.689 (0) Table dm_commentmeta: finishing file(s) (2, 0.4 KB)
+0019.695 (0) Table dm_comments: Total expected rows (approximate): 1
+0019.701 (0) Table dm_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2121) in 0.00 seconds
+0019.710 (0) Table dm_comments: finishing file(s) (2, 0.8 KB)
+0019.715 (0) Table dm_links: Total expected rows (approximate): 0
+0019.719 (0) Table dm_links: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1467) in 0.00 seconds
+0019.729 (0) Table dm_links: finishing file(s) (2, 0.5 KB)
+0019.734 (0) Table dm_postmeta: Total expected rows (approximate): 444
+0019.752 (0) Table dm_postmeta: Rows added in this batch (next record: 588): 446 (uncompressed bytes in this segment=42256) in 0.01 seconds
+0019.765 (0) Table dm_postmeta: finishing file(s) (2, 6.7 KB)
+0019.770 (0) Table dm_posts: Total expected rows (approximate): 63
+0019.794 (0) Table dm_posts: Rows added in this batch (next record: 81): 64 (uncompressed bytes in this segment=98673) in 0.01 seconds
+0019.806 (0) Table dm_posts: finishing file(s) (2, 13.5 KB)
+0019.814 (0) Table dm_term_relationships: Total expected rows (approximate): 20
+0019.821 (0) Table dm_term_relationships: Rows added in this batch (next record: 100000): 21 (uncompressed bytes in this segment=964) in 0.00 seconds
+0019.829 (0) Table dm_term_relationships: finishing file(s) (2, 0.4 KB)
+0019.834 (0) Table dm_term_taxonomy: Total expected rows (approximate): 11
+0019.840 (0) Table dm_term_taxonomy: Rows added in this batch (next record: 16): 11 (uncompressed bytes in this segment=1285) in 0.00 seconds
+0019.848 (0) Table dm_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0019.853 (0) Table dm_termmeta: Total expected rows (approximate): 11
+0019.857 (0) Table dm_termmeta: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1377) in 0.00 seconds
+0019.865 (0) Table dm_termmeta: finishing file(s) (2, 0.7 KB)
+0019.870 (0) Table dm_terms: Total expected rows (approximate): 12
+0019.875 (0) Table dm_terms: Rows added in this batch (next record: 16): 11 (uncompressed bytes in this segment=1053) in 0.00 seconds
+0019.882 (0) Table dm_terms: finishing file(s) (2, 0.6 KB)
+0019.887 (0) Table dm_linkcategorymeta: Total expected rows (approximate): 0
+0019.891 (0) Table dm_linkcategorymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0019.899 (0) Table dm_linkcategorymeta: finishing file(s) (2, 0.3 KB)
+0019.904 (0) Table dm_links_extrainfo: Total expected rows (approximate): 0
+0019.909 (0) Table dm_links_extrainfo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.00 seconds
+0019.917 (0) Table dm_links_extrainfo: finishing file(s) (2, 0.4 KB)
+0019.922 (0) Table dm_rank_math_404_logs: Total expected rows (approximate): 0
+0019.925 (0) Table dm_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.00 seconds
+0019.932 (0) Table dm_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0019.939 (0) Table dm_rank_math_analytics_keyword_manager: Total expected rows (approximate): 0
+0019.943 (0) Table dm_rank_math_analytics_keyword_manager: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0019.954 (0) Table dm_rank_math_analytics_keyword_manager: finishing file(s) (2, 0.4 KB)
+0019.960 (0) Table dm_rank_math_analytics_objects: Total expected rows (approximate): 2
+0019.966 (0) Table dm_rank_math_analytics_objects: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1877) in 0.00 seconds
+0019.976 (0) Table dm_rank_math_analytics_objects: finishing file(s) (2, 0.7 KB)
+0019.982 (0) Table dm_rank_math_internal_links: Total expected rows (approximate): 0
+0019.987 (0) Table dm_rank_math_internal_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=897) in 0.00 seconds
+0019.996 (0) Table dm_rank_math_internal_links: finishing file(s) (2, 0.5 KB)
+0020.003 (0) Table dm_rank_math_internal_meta: Total expected rows (approximate): 11
+0020.009 (0) Table dm_rank_math_internal_meta: Rows added in this batch (next record: 75): 13 (uncompressed bytes in this segment=910) in 0.00 seconds
+0020.019 (0) Table dm_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0020.026 (0) Table dm_rank_math_redirections: Total expected rows (approximate): 0
+0020.031 (0) Table dm_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0020.041 (0) Table dm_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0020.049 (0) Table dm_rank_math_redirections_cache: Total expected rows (approximate): 0
+0020.055 (0) Table dm_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.00 seconds
+0020.068 (0) Table dm_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0020.077 (0) Table dm_sakurairo: Total expected rows (approximate): 4
+0020.083 (0) Table dm_sakurairo: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=598) in 0.00 seconds
+0020.093 (0) Table dm_sakurairo: finishing file(s) (2, 0.4 KB)
+0020.100 (0) Table dm_smush_dir_images: Total expected rows (approximate): 0
+0020.105 (0) Table dm_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1093) in 0.00 seconds
+0020.114 (0) Table dm_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0020.121 (0) Table dm_statistics_exclusions: Total expected rows (approximate): 0
+0020.126 (0) Table dm_statistics_exclusions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0020.134 (0) Table dm_statistics_exclusions: finishing file(s) (2, 0.4 KB)
+0020.139 (0) Table dm_statistics_historical: Total expected rows (approximate): 0
+0020.143 (0) Table dm_statistics_historical: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=758) in 0.00 seconds
+0020.155 (0) Table dm_statistics_historical: finishing file(s) (2, 0.4 KB)
+0020.161 (0) Table dm_statistics_pages: Total expected rows (approximate): 11
+0020.166 (0) Table dm_statistics_pages: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1500) in 0.00 seconds
+0020.173 (0) Table dm_statistics_pages: finishing file(s) (2, 0.7 KB)
+0020.178 (0) Table dm_statistics_search: Total expected rows (approximate): 0
+0020.182 (0) Table dm_statistics_search: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.00 seconds
+0020.191 (0) Table dm_statistics_search: finishing file(s) (2, 0.4 KB)
+0020.196 (0) Table dm_statistics_useronline: Total expected rows (approximate): 0
+0020.200 (0) Table dm_statistics_useronline: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1093) in 0.00 seconds
+0020.207 (0) Table dm_statistics_useronline: finishing file(s) (2, 0.5 KB)
+0020.213 (0) Table dm_statistics_visit: Total expected rows (approximate): 3
+0020.219 (0) Table dm_statistics_visit: Rows added in this batch (next record: 8): 3 (uncompressed bytes in this segment=778) in 0.00 seconds
+0020.231 (0) Table dm_statistics_visit: finishing file(s) (2, 0.4 KB)
+0020.236 (0) Table dm_statistics_visitor: Total expected rows (approximate): 15
+0020.241 (0) Table dm_statistics_visitor: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=2953) in 0.00 seconds
+0020.248 (0) Table dm_statistics_visitor: finishing file(s) (2, 0.8 KB)
+0020.253 (0) Table dm_statistics_visitor_relationships: Total expected rows (approximate): 0
+0020.257 (0) Table dm_statistics_visitor_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=698) in 0.00 seconds
+0020.264 (0) Table dm_statistics_visitor_relationships: finishing file(s) (2, 0.4 KB)
+0020.269 (0) Table dm_wpforms_tasks_meta: Total expected rows (approximate): 3
+0020.273 (0) Table dm_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=904) in 0.00 seconds
+0020.280 (0) Table dm_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0020.285 (0) Table dm_wpmailsmtp_tasks_meta: Total expected rows (approximate): 1
+0020.289 (0) Table dm_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=766) in 0.00 seconds
+0020.296 (0) Table dm_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0020.299 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_options.table.tmpr542.gz (1/37): adding to final database dump
+0020.349 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_options.table.gz (2/37): adding to final database dump
+0020.354 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_users.table.tmpr2.gz (3/37): adding to final database dump
+0020.358 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_users.table.gz (4/37): adding to final database dump
+0020.361 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_usermeta.table.tmpr32.gz (5/37): adding to final database dump
+0020.363 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_usermeta.table.gz (6/37): adding to final database dump
+0020.366 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_actions.table.tmpr38.gz (7/37): adding to final database dump
+0020.376 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_actions.table.gz (8/37): adding to final database dump
+0020.385 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_claims.table.tmpr0.gz (9/37): adding to final database dump
+0020.388 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_claims.table.gz (10/37): adding to final database dump
+0020.391 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_groups.table.tmpr6.gz (11/37): adding to final database dump
+0020.393 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_groups.table.gz (12/37): adding to final database dump
+0020.396 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_logs.table.tmpr89.gz (13/37): adding to final database dump
+0020.399 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_actionscheduler_logs.table.gz (14/37): adding to final database dump
+0020.401 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_commentmeta.table.tmpr0.gz (15/37): adding to final database dump
+0020.404 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_commentmeta.table.gz (16/37): adding to final database dump
+0020.406 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_comments.table.tmpr2.gz (17/37): adding to final database dump
+0020.408 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_comments.table.gz (18/37): adding to final database dump
+0020.410 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_links.table.tmpr3.gz (19/37): adding to final database dump
+0020.413 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_links.table.gz (20/37): adding to final database dump
+0020.415 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_postmeta.table.tmpr589.gz (21/37): adding to final database dump
+0020.419 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_postmeta.table.gz (22/37): adding to final database dump
+0020.422 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_posts.table.tmpr82.gz (23/37): adding to final database dump
+0020.426 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_posts.table.gz (24/37): adding to final database dump
+0020.429 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_term_relationships.table.tmpr100001.gz (25/37): adding to final database dump
+0020.431 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_term_relationships.table.gz (26/37): adding to final database dump
+0020.434 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_term_taxonomy.table.tmpr17.gz (27/37): adding to final database dump
+0020.436 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_term_taxonomy.table.gz (28/37): adding to final database dump
+0020.438 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_termmeta.table.tmpr12.gz (29/37): adding to final database dump
+0020.441 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_termmeta.table.gz (30/37): adding to final database dump
+0020.443 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_terms.table.tmpr17.gz (31/37): adding to final database dump
+0020.445 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_terms.table.gz (32/37): adding to final database dump
+0020.449 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_linkcategorymeta.table.tmpr0.gz (33/37): adding to final database dump
+0020.452 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_linkcategorymeta.table.gz (34/37): adding to final database dump
+0020.454 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_links_extrainfo.table.tmpr0.gz (35/37): adding to final database dump
+0020.457 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_links_extrainfo.table.gz (36/37): adding to final database dump
+0020.459 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_404_logs.table.tmpr0.gz (37/37): adding to final database dump
+0020.461 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_404_logs.table.gz (38/37): adding to final database dump
+0020.463 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_analytics_keyword_manager.table.tmpr0.gz (39/37): adding to final database dump
+0020.468 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_analytics_keyword_manager.table.gz (40/37): adding to final database dump
+0020.471 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_analytics_objects.table.tmpr3.gz (41/37): adding to final database dump
+0020.473 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_analytics_objects.table.gz (42/37): adding to final database dump
+0020.474 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_internal_links.table.tmpr2.gz (43/37): adding to final database dump
+0020.476 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_internal_links.table.gz (44/37): adding to final database dump
+0020.479 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_internal_meta.table.tmpr76.gz (45/37): adding to final database dump
+0020.482 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_internal_meta.table.gz (46/37): adding to final database dump
+0020.485 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_redirections.table.tmpr0.gz (47/37): adding to final database dump
+0020.487 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_redirections.table.gz (48/37): adding to final database dump
+0020.492 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_redirections_cache.table.tmpr0.gz (49/37): adding to final database dump
+0020.496 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_rank_math_redirections_cache.table.gz (50/37): adding to final database dump
+0020.500 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_sakurairo.table.tmpr1001.gz (51/37): adding to final database dump
+0020.508 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_sakurairo.table.gz (52/37): adding to final database dump
+0020.512 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_smush_dir_images.table.tmpr0.gz (53/37): adding to final database dump
+0020.516 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_smush_dir_images.table.gz (54/37): adding to final database dump
+0020.520 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_exclusions.table.tmpr0.gz (55/37): adding to final database dump
+0020.524 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_exclusions.table.gz (56/37): adding to final database dump
+0020.530 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_historical.table.tmpr0.gz (57/37): adding to final database dump
+0020.533 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_historical.table.gz (58/37): adding to final database dump
+0020.535 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_pages.table.tmpr12.gz (59/37): adding to final database dump
+0020.538 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_pages.table.gz (60/37): adding to final database dump
+0020.540 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_search.table.tmpr0.gz (61/37): adding to final database dump
+0020.543 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_search.table.gz (62/37): adding to final database dump
+0020.545 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_useronline.table.tmpr0.gz (63/37): adding to final database dump
+0020.547 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_useronline.table.gz (64/37): adding to final database dump
+0020.549 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visit.table.tmpr9.gz (65/37): adding to final database dump
+0020.552 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visit.table.gz (66/37): adding to final database dump
+0020.557 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visitor.table.tmpr16.gz (67/37): adding to final database dump
+0020.559 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visitor.table.gz (68/37): adding to final database dump
+0020.563 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visitor_relationships.table.tmpr0.gz (69/37): adding to final database dump
+0020.567 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_statistics_visitor_relationships.table.gz (70/37): adding to final database dump
+0020.573 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_wpforms_tasks_meta.table.tmpr4.gz (71/37): adding to final database dump
+0020.577 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_wpforms_tasks_meta.table.gz (72/37): adding to final database dump
+0020.580 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_wpmailsmtp_tasks_meta.table.tmpr2.gz (73/37): adding to final database dump
+0020.584 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db-table-dm_wpmailsmtp_tasks_meta.table.gz (74/37): adding to final database dump
+0020.591 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db.gz: finished writing out complete database file (272 KB)
+0020.620 (0) Total database tables backed up: 37 (backup_2021-05-18-1457_mikuo_c69d791f849b-db.gz, size: 285945, sha1: 23dc0e6480fef06caca555764b1dbe57d686f932, sha256: 05c07341ba745ed739319926c26e63d51d7f890869ed54ec288548dee18cf355)
+0020.634 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0020.637 (0) backup_2021-05-18-1457_mikuo_c69d791f849b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0020.640 (0) Saving backup history. Total backup size: 41 MB
+0020.647 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0020.656 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.659 (0) No remote despatch: user chose no remote backup service
+0020.661 (0) Recording as successfully uploaded: backup_2021-05-18-1457_mikuo_c69d791f849b-plugins.zip
+0020.666 (0) Recording as successfully uploaded: backup_2021-05-18-1457_mikuo_c69d791f849b-db.gz
+0020.675 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.678 (0) Number of backup sets in history: 1; groups (db): 1
+0020.682 (0) Examining (for databases) backup set with group_id=0, nonce=c69d791f849b, datestamp=1621321034 (May 18 2021 06:57:14)
+0020.684 (0) This backup set is the backup set just made, so will not be deleted.
+0020.684 (0) Number of backup sets in history: 1; groups (files): 1
+0020.687 (0) Examining (for files) backup set with nonce=c69d791f849b, datestamp=1621321034 (May 18 2021 06:57:14)
+0020.687 (0) This backup set is the backup set just made, so will not be deleted.
+0020.689 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.691 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.697 (0) Resume backup (c69d791f849b, 0): finish run
+0020.703 (0) Decremented the semaphore (fd) by 1
+0020.706 (0) Semaphore (fd) unlocked
+0020.709 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0020.717 (0) The backup apparently succeeded and is now complete
+0020.720 (0) No email will/can be sent - the user has not configured an email address.
+0020.723 (0) 备份显然是成功的，现在已经完成了。

@@ -1,0 +1,6 @@
+*.php
+.htaccess
+*license.txt
+.user.ini
+/wp-admin/*
+/wp-content/plugins/*
