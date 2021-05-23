@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
-    <!-- generated-on=2021-05-20 17:58:26 -->
+    <!-- generated-on=2021-05-23 15:44:08 -->
     <url>
         <loc>https://mikuo.top</loc>
-        <lastmod>2021-05-23T04:52:20+00:00</lastmod>
+        <lastmod>2021-05-23T08:02:34+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mikuo.top/githubjiasu/</loc>
+        <lastmod>2021-05-23T16:02:34+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://mikuo.top/82-2/</loc>
