@@ -1,0 +1,258 @@
+0000.000 (0) Opened log file at time: Mon, 24 May 2021 11:09:09 +0000 on https://mikuo.top
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.57.25 WP: 5.7.2 PHP: 7.4.19 (fpm-fcgi, Linux racknerd-528ea0 4.11.8-1.el7.elrepo.x86_64 #1 SMP Thu Jun 29 10:01:10 EDT 2017 x86_64) MySQL: 5.6.32-log WPLANG: zh_CN Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.8M | 4M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 22137.8 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.025 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.038 (0) Set semaphore last lock (fd) time to 2021-05-24 11:09:09
+0000.053 (0) Semaphore lock (fd) complete
+0000.069 (0) Backup run: resumption=0, nonce=aae78dde54c4, file_nonce=aae78dde54c4 begun at=1621854549 (0s ago), job type=backup, label=更新前自动备份
+0000.076 (0) Scheduling a resumption (1) after 300 seconds (1621854849) in case this run gets aborted
+0000.145 (0) Checking if we have a zip executable available
+0000.154 (0) Creation of backups of directories: beginning
+0000.161 (0) No backup of plugins: excluded by user's options
+0000.166 (0) Beginning creation of dump of themes (split every: 400 MB)
+0000.263 (0) Total entities for the zip file: 88 directories, 248 files (0 skipped as non-modified), 25.7 MB
+0000.284 (0) Zip: backup_2021-05-24-1909_mikuo_aae78dde54c4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.306 (0) Zip: backup_2021-05-24-1909_mikuo_aae78dde54c4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.313 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 248 files batched, 219 (219) added so far); re-opening (prior size: 0 KB)
+0000.762 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18642.2 KB/s)
+0000.768 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3900780677795, normalised_time=1.3732298827726, max_time=0.76485800743103, data points known=1, old_max_bytes=26214400, new_max_bytes=114537559)
+0001.835 (0) Created themes zip (0) - 24518 KB in 1.7 s (14726.3 KB/s) (sha1: 4094af8effc8dcddd2f3712de42b9d9bf67042bd, sha256: 6b7eda4156e01a2f69436aabcd749186f6260d83e76b44c891a927bbe41aaa43)
+0001.843 (0) No backup of uploads: excluded by user's options
+0001.846 (0) No backup of wpcore: excluded by user's options
+0001.850 (0) No backup of others: excluded by user's options
+0001.870 (0) No backup of more: excluded by user's options
+0001.889 (0) Saving backup status to database (elements: 2)
+0001.901 (0) Beginning creation of database dump (WordPress DB)
+0001.907 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0001.932 (0) Table dm_options: Total expected rows (approximate): 318
+0002.003 (0) Table dm_options: Rows added in this batch (next record: 977): 321 (uncompressed bytes in this segment=923025) in 0.07 seconds
+0002.018 (0) Table dm_options: finishing file(s) (2, 253.2 KB)
+0002.030 (0) Table dm_users: Total expected rows (approximate): 0
+0002.038 (0) Table dm_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1374) in 0.00 seconds
+0002.049 (0) Table dm_users: finishing file(s) (2, 0.6 KB)
+0002.057 (0) Table dm_usermeta: Total expected rows (approximate): 47
+0002.065 (0) Table dm_usermeta: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=7813) in 0.00 seconds
+0002.078 (0) Table dm_usermeta: finishing file(s) (2, 2.6 KB)
+0002.088 (0) Table dm_actionscheduler_actions: Total expected rows (approximate): 420
+0002.115 (0) Table dm_actionscheduler_actions: Rows added in this batch (next record: 430): 422 (uncompressed bytes in this segment=143850) in 0.02 seconds
+0002.127 (0) Table dm_actionscheduler_actions: finishing file(s) (2, 13 KB)
+0002.133 (0) Table dm_actionscheduler_claims: Total expected rows (approximate): 0
+0002.137 (0) Table dm_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0002.148 (0) Table dm_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0002.156 (0) Table dm_actionscheduler_groups: Total expected rows (approximate): 5
+0002.162 (0) Table dm_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=765) in 0.00 seconds
+0002.172 (0) Table dm_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0002.179 (0) Table dm_actionscheduler_logs: Total expected rows (approximate): 1197
+0002.207 (0) Table dm_actionscheduler_logs: Rows added in this batch (next record: 1273): 1264 (uncompressed bytes in this segment=109188) in 0.02 seconds
+0002.220 (0) Table dm_actionscheduler_logs: finishing file(s) (2, 11.7 KB)
+0002.229 (0) Table dm_commentmeta: Total expected rows (approximate): 2
+0002.236 (0) Table dm_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.00 seconds
+0002.250 (0) Table dm_commentmeta: finishing file(s) (2, 0.4 KB)
+0002.259 (0) Table dm_comments: Total expected rows (approximate): 1
+0002.265 (0) Table dm_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2102) in 0.00 seconds
+0002.279 (0) Table dm_comments: finishing file(s) (2, 0.8 KB)
+0002.289 (0) Table dm_links: Total expected rows (approximate): 0
+0002.296 (0) Table dm_links: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1467) in 0.00 seconds
+0002.308 (0) Table dm_links: finishing file(s) (2, 0.5 KB)
+0002.317 (0) Table dm_postmeta: Total expected rows (approximate): 815
+0002.348 (0) Table dm_postmeta: Rows added in this batch (next record: 1159): 837 (uncompressed bytes in this segment=243020) in 0.03 seconds
+0002.358 (0) Table dm_postmeta: finishing file(s) (2, 27.2 KB)
+0002.365 (0) Table dm_posts: Total expected rows (approximate): 114
+0002.391 (0) Table dm_posts: Rows added in this batch (next record: 191): 114 (uncompressed bytes in this segment=66917) in 0.02 seconds
+0002.408 (0) Table dm_posts: finishing file(s) (2, 14 KB)
+0002.415 (0) Table dm_term_relationships: Total expected rows (approximate): 20
+0002.421 (0) Table dm_term_relationships: Rows added in this batch (next record: 100000): 22 (uncompressed bytes in this segment=982) in 0.00 seconds
+0002.430 (0) Table dm_term_relationships: finishing file(s) (2, 0.4 KB)
+0002.438 (0) Table dm_term_taxonomy: Total expected rows (approximate): 11
+0002.448 (0) Table dm_term_taxonomy: Rows added in this batch (next record: 16): 10 (uncompressed bytes in this segment=1254) in 0.01 seconds
+0002.460 (0) Table dm_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0002.468 (0) Table dm_termmeta: Total expected rows (approximate): 11
+0002.475 (0) Table dm_termmeta: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1377) in 0.00 seconds
+0002.489 (0) Table dm_termmeta: finishing file(s) (2, 0.7 KB)
+0002.499 (0) Table dm_terms: Total expected rows (approximate): 12
+0002.507 (0) Table dm_terms: Rows added in this batch (next record: 16): 10 (uncompressed bytes in this segment=1026) in 0.00 seconds
+0002.522 (0) Table dm_terms: finishing file(s) (2, 0.6 KB)
+0002.532 (0) Table dm_linkcategorymeta: Total expected rows (approximate): 0
+0002.538 (0) Table dm_linkcategorymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0002.552 (0) Table dm_linkcategorymeta: finishing file(s) (2, 0.3 KB)
+0002.561 (0) Table dm_links_extrainfo: Total expected rows (approximate): 0
+0002.568 (0) Table dm_links_extrainfo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.00 seconds
+0002.581 (0) Table dm_links_extrainfo: finishing file(s) (2, 0.4 KB)
+0002.589 (0) Table dm_rank_math_404_logs: Total expected rows (approximate): 0
+0002.594 (0) Table dm_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.00 seconds
+0002.606 (0) Table dm_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0002.615 (0) Table dm_rank_math_analytics_gsc: Total expected rows (approximate): 0
+0002.622 (0) Table dm_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=975) in 0.00 seconds
+0002.636 (0) Table dm_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0002.647 (0) Table dm_rank_math_analytics_keyword_manager: Total expected rows (approximate): 0
+0002.654 (0) Table dm_rank_math_analytics_keyword_manager: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0002.670 (0) Table dm_rank_math_analytics_keyword_manager: finishing file(s) (2, 0.4 KB)
+0002.683 (0) Table dm_rank_math_analytics_objects: Total expected rows (approximate): 9
+0002.690 (0) Table dm_rank_math_analytics_objects: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=3098) in 0.00 seconds
+0002.704 (0) Table dm_rank_math_analytics_objects: finishing file(s) (2, 1.1 KB)
+0002.713 (0) Table dm_rank_math_internal_links: Total expected rows (approximate): 1
+0002.719 (0) Table dm_rank_math_internal_links: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=897) in 0.00 seconds
+0002.738 (0) Table dm_rank_math_internal_links: finishing file(s) (2, 0.5 KB)
+0002.752 (0) Table dm_rank_math_internal_meta: Total expected rows (approximate): 11
+0002.758 (0) Table dm_rank_math_internal_meta: Rows added in this batch (next record: 177): 16 (uncompressed bytes in this segment=960) in 0.00 seconds
+0002.771 (0) Table dm_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0002.777 (0) Table dm_rank_math_redirections: Total expected rows (approximate): 0
+0002.782 (0) Table dm_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0002.793 (0) Table dm_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0002.799 (0) Table dm_rank_math_redirections_cache: Total expected rows (approximate): 0
+0002.803 (0) Table dm_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.00 seconds
+0002.814 (0) Table dm_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0002.825 (0) Table dm_sakurairo: Total expected rows (approximate): 4
+0002.831 (0) Table dm_sakurairo: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=598) in 0.00 seconds
+0002.842 (0) Table dm_sakurairo: finishing file(s) (2, 0.4 KB)
+0002.850 (0) Table dm_smush_dir_images: Total expected rows (approximate): 0
+0002.855 (0) Table dm_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1093) in 0.00 seconds
+0002.870 (0) Table dm_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0002.878 (0) Table dm_statistics_exclusions: Total expected rows (approximate): 0
+0002.883 (0) Table dm_statistics_exclusions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0002.896 (0) Table dm_statistics_exclusions: finishing file(s) (2, 0.4 KB)
+0002.904 (0) Table dm_statistics_historical: Total expected rows (approximate): 0
+0002.910 (0) Table dm_statistics_historical: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=758) in 0.00 seconds
+0002.922 (0) Table dm_statistics_historical: finishing file(s) (2, 0.4 KB)
+0002.931 (0) Table dm_statistics_pages: Total expected rows (approximate): 99
+0002.941 (0) Table dm_statistics_pages: Rows added in this batch (next record: 108): 99 (uncompressed bytes in this segment=6627) in 0.01 seconds
+0002.955 (0) Table dm_statistics_pages: finishing file(s) (2, 1.5 KB)
+0002.969 (0) Table dm_statistics_search: Total expected rows (approximate): 5
+0002.975 (0) Table dm_statistics_search: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1175) in 0.00 seconds
+0002.988 (0) Table dm_statistics_search: finishing file(s) (2, 0.5 KB)
+0003.003 (0) Table dm_statistics_useronline: Total expected rows (approximate): 2
+0003.010 (0) Table dm_statistics_useronline: Rows added in this batch (next record: 40): 2 (uncompressed bytes in this segment=1488) in 0.00 seconds
+0003.024 (0) Table dm_statistics_useronline: finishing file(s) (2, 0.7 KB)
+0003.030 (0) Table dm_statistics_visit: Total expected rows (approximate): 7
+0003.035 (0) Table dm_statistics_visit: Rows added in this batch (next record: 33): 9 (uncompressed bytes in this segment=1066) in 0.00 seconds
+0003.043 (0) Table dm_statistics_visit: finishing file(s) (2, 0.5 KB)
+0003.049 (0) Table dm_statistics_visitor: Total expected rows (approximate): 95
+0003.059 (0) Table dm_statistics_visitor: Rows added in this batch (next record: 95): 95 (uncompressed bytes in this segment=14046) in 0.01 seconds
+0003.076 (0) Table dm_statistics_visitor: finishing file(s) (2, 3.3 KB)
+0003.085 (0) Table dm_statistics_visitor_relationships: Total expected rows (approximate): 395
+0003.096 (0) Table dm_statistics_visitor_relationships: Rows added in this batch (next record: 395): 395 (uncompressed bytes in this segment=16130) in 0.01 seconds
+0003.109 (0) Table dm_statistics_visitor_relationships: finishing file(s) (2, 3.3 KB)
+0003.116 (0) Table dm_wpforms_tasks_meta: Total expected rows (approximate): 2
+0003.125 (0) Table dm_wpforms_tasks_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1054) in 0.00 seconds
+0003.137 (0) Table dm_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0003.146 (0) Table dm_wpmailsmtp_tasks_meta: Total expected rows (approximate): 5
+0003.153 (0) Table dm_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1086) in 0.00 seconds
+0003.164 (0) Table dm_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0003.169 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_options.table.tmpr978.gz (1/38): adding to final database dump
+0003.254 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_options.table.gz (2/38): adding to final database dump
+0003.259 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_users.table.tmpr2.gz (3/38): adding to final database dump
+0003.263 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_users.table.gz (4/38): adding to final database dump
+0003.267 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_usermeta.table.tmpr48.gz (5/38): adding to final database dump
+0003.272 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_usermeta.table.gz (6/38): adding to final database dump
+0003.275 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_actions.table.tmpr431.gz (7/38): adding to final database dump
+0003.282 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_actions.table.gz (8/38): adding to final database dump
+0003.287 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_claims.table.tmpr0.gz (9/38): adding to final database dump
+0003.291 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_claims.table.gz (10/38): adding to final database dump
+0003.296 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_groups.table.tmpr6.gz (11/38): adding to final database dump
+0003.300 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_groups.table.gz (12/38): adding to final database dump
+0003.305 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_logs.table.tmpr1274.gz (13/38): adding to final database dump
+0003.314 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_actionscheduler_logs.table.gz (14/38): adding to final database dump
+0003.319 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_commentmeta.table.tmpr3.gz (15/38): adding to final database dump
+0003.324 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_commentmeta.table.gz (16/38): adding to final database dump
+0003.328 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_comments.table.tmpr2.gz (17/38): adding to final database dump
+0003.333 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_comments.table.gz (18/38): adding to final database dump
+0003.338 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_links.table.tmpr3.gz (19/38): adding to final database dump
+0003.342 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_links.table.gz (20/38): adding to final database dump
+0003.346 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_postmeta.table.tmpr1160.gz (21/38): adding to final database dump
+0003.361 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_postmeta.table.gz (22/38): adding to final database dump
+0003.366 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_posts.table.tmpr192.gz (23/38): adding to final database dump
+0003.374 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_posts.table.gz (24/38): adding to final database dump
+0003.378 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_term_relationships.table.tmpr100001.gz (25/38): adding to final database dump
+0003.382 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_term_relationships.table.gz (26/38): adding to final database dump
+0003.387 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_term_taxonomy.table.tmpr17.gz (27/38): adding to final database dump
+0003.392 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_term_taxonomy.table.gz (28/38): adding to final database dump
+0003.396 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_termmeta.table.tmpr12.gz (29/38): adding to final database dump
+0003.400 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_termmeta.table.gz (30/38): adding to final database dump
+0003.404 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_terms.table.tmpr17.gz (31/38): adding to final database dump
+0003.408 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_terms.table.gz (32/38): adding to final database dump
+0003.412 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_linkcategorymeta.table.tmpr0.gz (33/38): adding to final database dump
+0003.416 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_linkcategorymeta.table.gz (34/38): adding to final database dump
+0003.421 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_links_extrainfo.table.tmpr0.gz (35/38): adding to final database dump
+0003.426 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_links_extrainfo.table.gz (36/38): adding to final database dump
+0003.433 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_404_logs.table.tmpr0.gz (37/38): adding to final database dump
+0003.438 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_404_logs.table.gz (38/38): adding to final database dump
+0003.441 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_gsc.table.tmpr0.gz (39/38): adding to final database dump
+0003.445 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_gsc.table.gz (40/38): adding to final database dump
+0003.448 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_keyword_manager.table.tmpr0.gz (41/38): adding to final database dump
+0003.452 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_keyword_manager.table.gz (42/38): adding to final database dump
+0003.456 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_objects.table.tmpr11.gz (43/38): adding to final database dump
+0003.459 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_analytics_objects.table.gz (44/38): adding to final database dump
+0003.463 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_internal_links.table.tmpr3.gz (45/38): adding to final database dump
+0003.466 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_internal_links.table.gz (46/38): adding to final database dump
+0003.470 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_internal_meta.table.tmpr178.gz (47/38): adding to final database dump
+0003.473 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_internal_meta.table.gz (48/38): adding to final database dump
+0003.477 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_redirections.table.tmpr0.gz (49/38): adding to final database dump
+0003.482 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_redirections.table.gz (50/38): adding to final database dump
+0003.486 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_redirections_cache.table.tmpr0.gz (51/38): adding to final database dump
+0003.490 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_rank_math_redirections_cache.table.gz (52/38): adding to final database dump
+0003.494 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_sakurairo.table.tmpr1001.gz (53/38): adding to final database dump
+0003.498 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_sakurairo.table.gz (54/38): adding to final database dump
+0003.503 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_smush_dir_images.table.tmpr0.gz (55/38): adding to final database dump
+0003.507 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_smush_dir_images.table.gz (56/38): adding to final database dump
+0003.510 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_exclusions.table.tmpr0.gz (57/38): adding to final database dump
+0003.513 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_exclusions.table.gz (58/38): adding to final database dump
+0003.516 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_historical.table.tmpr0.gz (59/38): adding to final database dump
+0003.519 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_historical.table.gz (60/38): adding to final database dump
+0003.523 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_pages.table.tmpr109.gz (61/38): adding to final database dump
+0003.525 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_pages.table.gz (62/38): adding to final database dump
+0003.528 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_search.table.tmpr7.gz (63/38): adding to final database dump
+0003.531 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_search.table.gz (64/38): adding to final database dump
+0003.533 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_useronline.table.tmpr41.gz (65/38): adding to final database dump
+0003.536 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_useronline.table.gz (66/38): adding to final database dump
+0003.539 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visit.table.tmpr34.gz (67/38): adding to final database dump
+0003.547 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visit.table.gz (68/38): adding to final database dump
+0003.550 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visitor.table.tmpr96.gz (69/38): adding to final database dump
+0003.554 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visitor.table.gz (70/38): adding to final database dump
+0003.557 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visitor_relationships.table.tmpr396.gz (71/38): adding to final database dump
+0003.561 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_statistics_visitor_relationships.table.gz (72/38): adding to final database dump
+0003.564 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_wpforms_tasks_meta.table.tmpr6.gz (73/38): adding to final database dump
+0003.567 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_wpforms_tasks_meta.table.gz (74/38): adding to final database dump
+0003.570 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_wpmailsmtp_tasks_meta.table.tmpr6.gz (75/38): adding to final database dump
+0003.573 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db-table-dm_wpmailsmtp_tasks_meta.table.gz (76/38): adding to final database dump
+0003.581 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db.gz: finished writing out complete database file (328 KB)
+0003.609 (0) Total database tables backed up: 38 (backup_2021-05-24-1909_mikuo_aae78dde54c4-db.gz, size: 343003, sha1: c417b87a0b70ecd7381bd9fe2ef149a841bc16ab, sha256: 222684b643756cd87aa7d79cf5d97da41ce3d4b93e6828685e7afa825e69ab52)
+0003.629 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0003.635 (0) backup_2021-05-24-1909_mikuo_aae78dde54c4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.639 (0) Saving backup history. Total backup size: 24.3 MB
+0003.649 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0003.662 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.667 (0) No remote despatch: user chose no remote backup service
+0003.672 (0) Recording as successfully uploaded: backup_2021-05-24-1909_mikuo_aae78dde54c4-themes.zip
+0003.680 (0) Recording as successfully uploaded: backup_2021-05-24-1909_mikuo_aae78dde54c4-db.gz
+0003.690 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.695 (0) Number of backup sets in history: 4; groups (db): 1
+0003.703 (0) Examining (for databases) backup set with group_id=0, nonce=aae78dde54c4, datestamp=1621854549 (May 24 2021 11:09:09)
+0003.713 (0) This backup set is the backup set just made, so will not be deleted.
+0003.714 (0) Examining (for databases) backup set with group_id=0, nonce=19a5bc1f3495, datestamp=1621729787 (May 23 2021 00:29:47)
+0003.714 (0) This backup set (1621729787) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.714 (0) Examining (for databases) backup set with group_id=0, nonce=d810437eeef6, datestamp=1621484833 (May 20 2021 04:27:13)
+0003.714 (0) This backup set (1621484833) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.714 (0) Examining (for databases) backup set with group_id=0, nonce=c69d791f849b, datestamp=1621321034 (May 18 2021 06:57:14)
+0003.714 (0) This backup set (1621321034) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.714 (0) Number of backup sets in history: 4; groups (files): 1
+0003.719 (0) Examining (for files) backup set with nonce=aae78dde54c4, datestamp=1621854549 (May 24 2021 11:09:09)
+0003.719 (0) This backup set is the backup set just made, so will not be deleted.
+0003.723 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.727 (0) Examining (for files) backup set with nonce=19a5bc1f3495, datestamp=1621729787 (May 23 2021 00:29:47)
+0003.727 (0) This backup set (1621729787) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.727 (0) Examining (for files) backup set with nonce=d810437eeef6, datestamp=1621484833 (May 20 2021 04:27:13)
+0003.727 (0) This backup set (1621484833) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.727 (0) Examining (for files) backup set with nonce=c69d791f849b, datestamp=1621321034 (May 18 2021 06:57:14)
+0003.727 (0) This backup set (1621321034) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0003.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.728 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0003.738 (0) Resume backup (aae78dde54c4, 0): finish run
+0003.749 (0) Decremented the semaphore (fd) by 1
+0003.755 (0) Semaphore (fd) unlocked
+0003.760 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.776 (0) The backup apparently succeeded and is now complete
+0003.780 (0) No email will/can be sent - the user has not configured an email address.
+0003.785 (0) 备份显然是成功的，现在已经完成了。

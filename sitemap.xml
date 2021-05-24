@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
-    <!-- generated-on=2021-05-23 15:44:08 -->
+    <!-- generated-on=2021-05-24 08:14:24 -->
     <url>
         <loc>https://mikuo.top</loc>
-        <lastmod>2021-05-23T08:17:22+00:00</lastmod>
+        <lastmod>2021-05-24T00:16:25+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -85,12 +85,13 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https:/mikuo.top/time/</loc>
+        <loc>https://mikuo.top/sc/</loc>
+        <lastmod>2021-05-24T08:16:25+00:00</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.6</priority>
     </url>
     <url>
-        <loc>https:/mikuo.top/time/code/</loc>
+        <loc>https:/mikuo.top/time/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
